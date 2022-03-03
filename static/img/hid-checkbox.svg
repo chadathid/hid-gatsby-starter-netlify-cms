@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="226px" height="163px" viewBox="0 0 226 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-checkbox__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-726.000000, -2338.000000)">
+            <g id="hid-checkbox__thumb" transform="translate(726.000000, 2338.000000)">
+                <rect id="Background" fill="#FFFFFF" opacity="0.01171875" x="0" y="0" width="226" height="163" rx="4"></rect>
+                <g id="toggle/group__checkbox--off" transform="translate(20.000000, 69.000000)">
+                    <g id="group__checkbox--off">
+                        <g id="toggle/ic_check_box_outline_blank" opacity="0.538225446">
+                            <g id="ic_check_box_outline_blank">
+                                <polygon id="Bounds" points="0 0 24 0 24 24 0 24"></polygon>
+                                <path d="M19,5 L19,19 L5,19 L5,5 L19,5 L19,5 Z M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z" id="Shape" fill="#000000"></path>
+                            </g>
+                        </g>
+                        <text id="option" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="0.200000003" fill="#555555">
+                            <tspan x="36" y="18">Option</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="toggle/group__checkbox--on" transform="translate(123.000000, 69.000000)">
+                    <g id="group__checkbox--on">
+                        <g id="toggle/ic_check_box">
+                            <g id="ic_check_box">
+                                <polygon id="Bounds" points="0 0 24 0 24 24 0 24"></polygon>
+                                <path d="M19,3 L5,3 C3.89,3 3,3.9 3,5 L3,19 C3,20.1 3.89,21 5,21 L19,21 C20.11,21 21,20.1 21,19 L21,5 C21,3.9 20.11,3 19,3 L19,3 Z M10,17 L5,12 L6.41,10.59 L10,14.17 L17.59,6.58 L19,8 L10,17 L10,17 Z" id="Shape" fill="#00539B"></path>
+                            </g>
+                        </g>
+                        <text id="option" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="0.200000003" fill="#555555">
+                            <tspan x="36" y="18">Option</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

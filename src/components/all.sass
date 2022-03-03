@@ -19,21 +19,36 @@ $blue: #00539B
 
 // Navbar overrides
 $navbar-item-color: $blue
+
 $navbar-item-hover-background-color: #E5F2FE
+
 $navbar-item-active-background-color: #E5F2FE
+$navbar-item-active-color: $blue
+
 $navbar-dropdown-border-top: none
 $navbar-dropdown-background-color: #002E56
 $navbar-dropdown-radius: 0
+
 $navbar-dropdown-item-hover-background-color: $blue
+
 $navbar-dropdown-item-active-background-color: $blue
+$navbar-dropdown-item-active-color: $blue
 
-.navbar .navbar-menu
-  box-shadow: none !important
+.card
+  height: 100%
+  display: block
+  padding: 1.5rem
+  .card-image
+    height: 100%
 
-.navbar-item
+.navbar
+  .navbar-menu
+    box-shadow: none !important
+
+.navbar-item, .navbar-item.logo:hover
   border-top: solid 3px transparent
 
-.navbar-item:hover
+.navbar-item:hover, .navbar-item.is-active, .navbar-item.is-active-dropdown
   border-top: solid 3px $blue
 
 .navbar .navbar-menu .navbar-dropdown .navbar-item, .navbar .navbar-menu .navbar-dropdown .navbar-link
@@ -41,8 +56,10 @@ $navbar-dropdown-item-active-background-color: $blue
   border-left: solid 4px transparent
   border-top: 0
 
-.navbar .navbar-menu .navbar-dropdown .navbar-item:hover, .navbar .navbar-menu .navbar-dropdown .navbar-link:hover
+.navbar .navbar-menu .navbar-dropdown .navbar-item:hover, .navbar .navbar-menu .navbar-dropdown .navbar-link:hover,
+.navbar .navbar-menu .navbar-dropdown .navbar-item.is-active, .navbar .navbar-menu .navbar-dropdown .navbar-link.is-active
   border-left: solid 4px #fff
+  background-color: $blue
 
 .content .taglist
   list-style: none
@@ -82,6 +99,12 @@ li
   justify-content: center
   align-items: center
 
+.full-width-hero-title
+  box-shadow: 0.5rem 0 0 #00539B, -0.5rem 0 0 #00539B
+  background-color: #00539B
+  color: white
+  padding: 1rem
+
 .btn
   display: inline-block
   padding: 12px 16px 10px
@@ -116,16 +139,29 @@ footer.footer
   padding: 0 24px
 
 //Menu overrides
-$menu-item-color: $white-ter
+$menu-item-color: #666
 $menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color: 	$kaldi-red-invert
+$menu-item-hover-background-color: #EFEFEF
+$menu-item-active-color: #333333
+$menu-item-active-background-color: 	#EFEFEF
 $menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
+$menu-label-color: #333333
+$menu-item-active-color: #333333
 
 // $menu-item-hover-background-color: #E5F2FE
 // $menu-item-active-background-color: #E5F2FE
+.content .menu ul
+  margin-left: 0
+  margin-top: 0
+
+.aside-menu
+  padding-top: 1rem
+
+.menu a
+  border-left: solid 4px transparent
+
+.menu a.is-active
+  border-left-color: $blue
 
 .menu-label
   font-size: 1em !important
@@ -157,6 +193,10 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+// .column
+//   padding: 0
+//   margin: 0.75rem
+
 .content h2
   font-family: $family-montserrat
   font-weight: $weight-normal
@@ -178,3 +218,6 @@ $menu-label-color: $white-ter
   text-align: center
   max-width: 70%
   margin: 0 0 1em
+
+.has-shadow-right
+  box-shadow: 2px 0 0 0 whitesmoke

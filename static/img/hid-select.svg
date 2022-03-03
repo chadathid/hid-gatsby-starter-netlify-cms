@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="139px" viewBox="0 0 225 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-select__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-980.000000, -1864.000000)">
+            <g id="hid-select__thumb" transform="translate(980.000000, 1864.000000)">
+                <rect id="background" stroke="#DDDDDD" fill="#F6F6F6" x="0.5" y="58.5" width="224" height="23" rx="4"></rect>
+                <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="4.5" y="81.5" width="217" height="57"></rect>
+                <rect id="Rectangle" fill="#BBBBBB" x="8.37037037" y="66" width="150" height="8" rx="1"></rect>
+                <rect id="Rectangle" fill="#EEEEEE" x="14" y="90" width="79" height="8" rx="1"></rect>
+                <rect id="Rectangle" fill="#EEEEEE" x="14" y="106" width="79" height="8" rx="1"></rect>
+                <rect id="Rectangle" fill="#EEEEEE" x="14" y="122" width="79" height="8" rx="1"></rect>
+                <rect id="Rectangle" fill="#BBBBBB" x="8" y="52" width="60" height="2" rx="1"></rect>
+                <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="6.5" width="224" height="23" rx="4"></rect>
+                <g id="ic_select" opacity="0.562941778" transform="translate(207.000000, 8.000000)">
+                    <polygon id="Shape" fill="#000000" points="5 11 8 14 11 11"></polygon>
+                    <polygon id="Shape" points="0 5 15 5 15 20 0 20"></polygon>
+                    <polygon id="Shape" fill="#000000" points="5 9 8 6 11 9"></polygon>
+                    <polygon id="Shape" points="0 0 15 0 15 15 0 15"></polygon>
+                </g>
+                <g id="ic_select" opacity="0.562941778" transform="translate(207.000000, 60.000000)">
+                    <polygon id="Shape" fill="#000000" points="5 11 8 14 11 11"></polygon>
+                    <polygon id="Shape" points="0 5 15 5 15 20 0 20"></polygon>
+                    <polygon id="Shape" fill="#000000" points="5 9 8 6 11 9"></polygon>
+                    <polygon id="Shape" points="0 0 15 0 15 15 0 15"></polygon>
+                </g>
+                <rect id="Rectangle" fill="#DDDDDD" x="8.37037037" y="14" width="150" height="8" rx="1"></rect>
+                <rect id="Rectangle" fill="#BBBBBB" x="8" y="0" width="60" height="2" rx="1"></rect>
+                <rect id="Rectangle" fill="#DDDDDD" x="8" y="34" width="60" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

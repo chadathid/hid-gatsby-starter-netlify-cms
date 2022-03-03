@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="163px" viewBox="0 0 229 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-notification__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="158" y="18" width="63" height="20" rx="1"></rect>
+        <filter x="-15.9%" y="-50.0%" width="134.9%" height="210.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-650.000000, -1864.000000)">
+            <g id="hid-notification__thumb" transform="translate(650.000000, 1864.000000)">
+                <g id="hid-notification">
+                    <g id="browser">
+                        <rect id="Background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="225" height="162" rx="4"></rect>
+                        <path d="M0.5,12.5 L225.5,12.5 L225.5,4 C225.5,2.06700338 223.932997,0.5 222,0.5 L4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,12.5 Z" id="Background" stroke="#DDDDDD" fill="#F2F2F2"></path>
+                        <path d="M0.5,162.5 L225.5,162.5 L225.5,154 C225.5,152.067003 223.932997,150.5 222,150.5 L4,150.5 C2.06700338,150.5 0.5,152.067003 0.5,154 L0.5,162.5 Z" id="Background" stroke="#DDDDDD" fill="#F2F2F2" transform="translate(113.000000, 156.500000) scale(1, -1) translate(-113.000000, -156.500000) "></path>
+                        <circle id="Oval" fill="#D31245" cx="7" cy="7" r="2"></circle>
+                        <circle id="Oval" fill="#F8971D" cx="12" cy="7" r="2"></circle>
+                        <circle id="Oval" fill="#94BB20" cx="17" cy="7" r="2"></circle>
+                    </g>
+                    <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="8.5" y="55.5" width="209" height="78" rx="4"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="17" y="85" width="192" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="17" y="99" width="192" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="17" y="113" width="100" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#BBBBBB" x="16" y="49" width="60" height="2" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="16" y="138" width="60" height="2" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="198" y="139" width="20" height="2" rx="1"></rect>
+                    <g id="background">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#00AEEF" x="158" y="18" width="1" height="20"></rect>
+                    <rect id="Rectangle" fill="#BBBBBB" x="175" y="22" width="30" height="5" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="175" y="30" width="39" height="4" rx="1"></rect>
+                    <rect id="Rectangle" fill="#00AEEF" x="163" y="24" width="8" height="8" rx="4"></rect>
+                    <g id="hid-notification__inline" transform="translate(16.000000, 62.000000)">
+                        <rect id="background" stroke="#EEEEEE" fill="#FFFFFF" x="0.5" y="0.5" width="193" height="14" rx="1"></rect>
+                        <rect id="Rectangle" fill="#00AEEF" x="0" y="0" width="1" height="15"></rect>
+                        <rect id="Rectangle" fill="#EEEEEE" x="15" y="5" width="106" height="5" rx="1"></rect>
+                        <rect id="Rectangle" fill="#00AEEF" x="5" y="5" width="6" height="6" rx="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

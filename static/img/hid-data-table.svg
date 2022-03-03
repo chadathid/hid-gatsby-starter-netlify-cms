@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="118px" viewBox="0 0 225 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-data-table__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-88.000000, -2179.000000)">
+            <g id="hid-data-table__thumb" transform="translate(88.000000, 2179.000000)">
+                <g id="th" transform="translate(0.000000, 0.500000)">
+                    <rect id="background" stroke="#DDDDDD" fill="#EAEAEA" x="0.5" y="0.5" width="224" height="23"></rect>
+                    <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="56" height="23"></rect>
+                    <rect id="Rectangle" fill="#999999" x="65" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#999999" x="121" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#999999" x="177" y="8" width="40" height="8" rx="1"></rect>
+                </g>
+                <g id="row" transform="translate(0.000000, 23.500000)">
+                    <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="224" height="23"></rect>
+                    <rect id="background" stroke="#DDDDDD" fill="#EAEAEA" x="0.5" y="0.5" width="56" height="23"></rect>
+                    <rect id="Rectangle" fill="#999999" x="8.37037037" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="65" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="121" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="177" y="8" width="40" height="8" rx="1"></rect>
+                </g>
+                <g id="row" transform="translate(0.000000, 46.500000)">
+                    <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="224" height="23"></rect>
+                    <rect id="background" stroke="#DDDDDD" fill="#EAEAEA" x="0.5" y="0.5" width="56" height="23"></rect>
+                    <rect id="Rectangle" fill="#999999" x="8.37037037" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="65" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="121" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="177" y="8" width="40" height="8" rx="1"></rect>
+                </g>
+                <g id="row" transform="translate(0.000000, 69.500000)">
+                    <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="224" height="23"></rect>
+                    <rect id="background" stroke="#DDDDDD" fill="#EAEAEA" x="0.5" y="0.5" width="56" height="23"></rect>
+                    <rect id="Rectangle" fill="#999999" x="8.37037037" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="65" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="121" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="177" y="8" width="40" height="8" rx="1"></rect>
+                </g>
+                <g id="row" transform="translate(0.000000, 92.500000)">
+                    <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="224" height="23"></rect>
+                    <rect id="background" stroke="#DDDDDD" fill="#EAEAEA" x="0.5" y="0.5" width="56" height="23"></rect>
+                    <rect id="Rectangle" fill="#999999" x="8.37037037" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="65" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="121" y="8" width="40" height="8" rx="1"></rect>
+                    <rect id="Rectangle" fill="#DDDDDD" x="177" y="8" width="40" height="8" rx="1"></rect>
+                </g>
+                <path d="M56.5,1 L56.5,117" id="Line-4" stroke="#DDDDDD" stroke-linecap="square"></path>
+                <path d="M113,1.5 L113,117.5" id="Line-4" stroke="#DDDDDD" stroke-linecap="square"></path>
+                <path d="M170,0.5 L170,116.5" id="Line-4" stroke="#DDDDDD" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

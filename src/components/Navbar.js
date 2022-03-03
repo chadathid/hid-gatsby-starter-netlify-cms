@@ -1,14 +1,16 @@
 import React from "react";
-import { Link } from "gatsby";
+import { graphql, StaticQuery, Link } from "gatsby";
 //import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
+import { useLocation } from "@reach/router";
 
-const Navbar = class extends React.Component {
+const NavbarTemplate = class extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			active: false,
 			navBarActiveClass: "",
+			activeDropdownClass: "",
 		};
 	}
 
@@ -33,12 +35,24 @@ const Navbar = class extends React.Component {
 	}
 
 	render() {
+		const { data } = this.props;
+		const { edges: componentLinks } = data.allMarkdownRemark;
+
+		const location = this.props.location ? this.props.location.pathname : "";
+
+		if (location !== "") {
+			let regexp = /^\/components/;
+			if (regexp.test(location)) {
+				this.state.activeDropdownClass = "is-active-dropdown";
+			}
+		}
+
 		return (
-			<nav className="navbar" role="navigation" aria-label="main-navigation">
+			<nav className="navbar has-shadow" role="navigation" aria-label="main-navigation">
 				<div className="container">
 					<div className="navbar-brand">
-						<Link to="/" className="navbar-item" title="Logo">
-							<img src={logo} alt="Kaldi" style={{ width: "321px" }} />
+						<Link to="/" className="navbar-item logo" title="Logo">
+							<img src={logo} alt="HID Design System" style={{ width: "321px" }} />
 						</Link>
 						{/* Hamburger menu */}
 						<div
@@ -56,89 +70,32 @@ const Navbar = class extends React.Component {
 					</div>
 					<div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
 						<div className="navbar-end has-text-centered">
-							<Link className="navbar-item" to="/about">
+							<Link activeClassName="is-active" className="navbar-item" to="/gettingstarted">
 								Getting Started
 							</Link>
-							<Link className="navbar-item" to="/blog">
+							<Link activeClassName="is-active" className="navbar-item" to="/?fundamentals">
 								Fundamentals
 							</Link>
-							<div className="navbar-item has-dropdown is-hoverable">
-								<Link className="navbar-link is-arrowless" to="/products">
+							<div className={`navbar-item has-dropdown is-hoverable ${this.state.activeDropdownClass}`}>
+								<Link activeClassName="is-active" className="navbar-link is-arrowless" partiallyActive={true} to="/components/">
 									Components
 								</Link>
 								<div className="navbar-dropdown">
-									<Link className="navbar-item" to="/">
-										Avatar
-									</Link>
-									<Link className="navbar-item" to="/">
-										Breadcrumbs
-									</Link>
-									<Link className="navbar-item" to="/">
-										Button
-									</Link>
-									<Link className="navbar-item" to="/">
-										Checkbox
-									</Link>
-									<Link className="navbar-item" to="/">
-										Divider
-									</Link>
-									<Link className="navbar-item" to="/">
-										Link
-									</Link>
-									<Link className="navbar-item" to="/">
-										List
-									</Link>
-									<Link className="navbar-item" to="/">
-										Loader
-									</Link>
-									<Link className="navbar-item" to="/">
-										Logo
-									</Link>
-									<Link className="navbar-item" to="/">
-										Notification
-									</Link>
-									<Link className="navbar-item" to="/">
-										Pagination
-									</Link>
-									<Link className="navbar-item" to="/">
-										Password Input
-									</Link>
-									<Link className="navbar-item" to="/">
-										Progress Indicator
-									</Link>
-									<Link className="navbar-item" to="/">
-										Radio Button
-									</Link>
-									<Link className="navbar-item" to="/">
-										Select
-									</Link>
-									<Link className="navbar-item" to="/">
-										Tabs
-									</Link>
-									<Link className="navbar-item" to="/">
-										Tag
-									</Link>
-									<Link className="navbar-item" to="/">
-										Text Area
-									</Link>
-									<Link className="navbar-item" to="/">
-										Text Input
-									</Link>
-									<Link className="navbar-item" to="/">
-										Toggle
-									</Link>
-									<Link className="navbar-item" to="/">
-										Tooltip
-									</Link>
+									{componentLinks &&
+										componentLinks.map(({ node: componentLink, key }) => (
+											<Link activeClassName="is-active" className="navbar-item" to={componentLink.fields.slug} key={Math.random()}>
+												{componentLink.frontmatter.title}
+											</Link>
+										))}
 								</div>
 							</div>
-							<Link className="navbar-item" to="/contact">
+							<Link activeClassName="is-active" className="navbar-item" to="/?widgets">
 								Widgets
 							</Link>
-							<Link className="navbar-item" to="/contact">
+							<Link activeClassName="is-active" className="navbar-item" to="/?ui">
 								UI Shell
 							</Link>
-							<Link className="navbar-item" to="/about">
+							<Link activeClassName="is-active" className="navbar-item" to="/about">
 								Page Templates
 							</Link>
 						</div>
@@ -149,4 +106,29 @@ const Navbar = class extends React.Component {
 	}
 };
 
-export default Navbar;
+export default function Navbar() {
+	const location = useLocation();
+	return (
+		<StaticQuery
+			query={graphql`
+				query NavbarQuery {
+					allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "component-post" } } }) {
+						edges {
+							node {
+								id
+								fields {
+									slug
+								}
+								frontmatter {
+									title
+									templateKey
+								}
+							}
+						}
+					}
+				}
+			`}
+			render={(data) => <NavbarTemplate data={data} location={location} />}
+		/>
+	);
+}

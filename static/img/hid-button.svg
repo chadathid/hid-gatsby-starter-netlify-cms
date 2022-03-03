@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="226px" height="163px" viewBox="0 0 226 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-button__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-354.000000, -1712.000000)">
+            <g id="hid-button__thumb" transform="translate(349.000000, 1712.000000)">
+                <rect id="Background" fill="#FFFFFF" opacity="0.01171875" x="5" y="0" width="226" height="163" rx="4"></rect>
+                <g id="hid-button__primary" transform="translate(128.000000, 63.000000)">
+                    <g id="button__primary--active">
+                        <rect id="button-bg" fill="#002E56" x="0" y="0" width="96" height="36" rx="4"></rect>
+                        <text id="button-action" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill="#FFFFFF">
+                            <tspan x="16.1137695" y="23">PRIMARY</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="hid-button__secondary" transform="translate(0.000000, 63.000000)">
+                    <g id="button__secondary--active">
+                        <rect id="button-bg" fill-opacity="0" fill="#000000" x="0.5" y="0" width="117" height="36" rx="4"></rect>
+                        <text id="button-action" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill="#00539B">
+                            <tspan x="16.5649414" y="23">SECONDARY</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

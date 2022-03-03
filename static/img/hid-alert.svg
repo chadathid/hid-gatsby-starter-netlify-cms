@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="163px" viewBox="0 0 234 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-alert__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,34 L225,34 L225,34 L225,50 C225,52.209139 223.209139,54 221,54 L5,54 C2.790861,54 1,52.209139 1,50 L1,35 C1,34.4477153 1.44771525,34 2,34 Z" id="path-1"></path>
+        <filter x="-3.3%" y="-37.5%" width="106.7%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-32.000000, -1793.000000)">
+            <g id="hid-alert__thumb" transform="translate(36.000000, 1793.000000)">
+                <g id="hid-accordion__usage">
+                    <g id="accordion__list-item">
+                        <g id="accordion__content">
+                            <rect id="Background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="225" height="162" rx="4"></rect>
+                            <path d="M0.5,12.5 L225.5,12.5 L225.5,4 C225.5,2.06700338 223.932997,0.5 222,0.5 L4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,12.5 Z" id="Background" stroke="#DDDDDD" fill="#F2F2F2"></path>
+                            <path d="M0.5,162.5 L225.5,162.5 L225.5,154 C225.5,152.067003 223.932997,150.5 222,150.5 L4,150.5 C2.06700338,150.5 0.5,152.067003 0.5,154 L0.5,162.5 Z" id="Background" stroke="#DDDDDD" fill="#F2F2F2" transform="translate(113.000000, 156.500000) scale(1, -1) translate(-113.000000, -156.500000) "></path>
+                            <rect id="Rectangle" fill="#00AEEF" x="1" y="13" width="224" height="21"></rect>
+                            <circle id="Oval" fill="#D31245" cx="7" cy="7" r="2"></circle>
+                            <circle id="Oval" fill="#F8971D" cx="12" cy="7" r="2"></circle>
+                            <circle id="Oval" fill="#94BB20" cx="17" cy="7" r="2"></circle>
+                        </g>
+                        <g id="background">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <rect id="Rectangle" fill="#BBBBBB" x="16" y="18" width="145.781414" height="5" rx="1"></rect>
+                        <rect id="Rectangle" fill="#BBBBBB" x="16" y="26" width="50.781414" height="4" rx="1"></rect>
+                        <rect id="Rectangle" fill="#DDDDDD" x="16" y="45" width="145.781414" height="4" rx="1"></rect>
+                        <rect id="Rectangle" fill="#DDDDDD" x="16" y="38" width="50.781414" height="4" rx="1"></rect>
+                        <rect id="Rectangle" fill="#BBBBBB" x="5" y="17" width="7" height="7" rx="3"></rect>
+                    </g>
+                </g>
+                <g id="navigation/ic_cancel" opacity="0.871744792" transform="translate(215.000000, 16.000000)">
+                    <g id="ic_cancel">
+                        <polygon id="Bounds" points="0 0 7 0 7 7 0 7"></polygon>
+                        <path d="M3.5,0.583333333 C1.88708333,0.583333333 0.583333333,1.88708333 0.583333333,3.5 C0.583333333,5.11291667 1.88708333,6.41666667 3.5,6.41666667 C5.11291667,6.41666667 6.41666667,5.11291667 6.41666667,3.5 C6.41666667,1.88708333 5.11291667,0.583333333 3.5,0.583333333 L3.5,0.583333333 Z M4.95833333,4.54708333 L4.54708333,4.95833333 L3.5,3.91125 L2.45291667,4.95833333 L2.04166667,4.54708333 L3.08875,3.5 L2.04166667,2.45291667 L2.45291667,2.04166667 L3.5,3.08875 L4.54708333,2.04166667 L4.95833333,2.45291667 L3.91125,3.5 L4.95833333,4.54708333 L4.95833333,4.54708333 Z" id="Shape" fill="#333333"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

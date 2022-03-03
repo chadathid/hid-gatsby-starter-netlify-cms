@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="226px" height="163px" viewBox="0 0 226 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-modal__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="53" y="36" width="120" height="69" rx="2"></rect>
+        <filter x="-18.8%" y="-32.6%" width="137.5%" height="165.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-1002.000000, -2087.000000)">
+            <g id="hid-modal__thumb" transform="translate(1002.000000, 2087.000000)">
+                <g id="hid-accordion__usage">
+                    <g id="accordion__list-item">
+                        <g id="accordion__content">
+                            <rect id="Background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="225" height="162" rx="4"></rect>
+                            <path d="M0.5,12.5 L225.5,12.5 L225.5,4 C225.5,2.06700338 223.932997,0.5 222,0.5 L4,0.5 C2.06700338,0.5 0.5,2.06700338 0.5,4 L0.5,12.5 Z" id="Background" stroke="#DDDDDD" fill="#F2F2F2"></path>
+                            <path d="M0.5,162.5 L225.5,162.5 L225.5,154 C225.5,152.067003 223.932997,150.5 222,150.5 L4,150.5 C2.06700338,150.5 0.5,152.067003 0.5,154 L0.5,162.5 Z" id="Background" stroke="#DDDDDD" fill="#F2F2F2" transform="translate(113.000000, 156.500000) scale(1, -1) translate(-113.000000, -156.500000) "></path>
+                            <circle id="Oval" fill="#D31245" cx="7" cy="7" r="2"></circle>
+                            <circle id="Oval" fill="#F8971D" cx="12" cy="7" r="2"></circle>
+                            <circle id="Oval" fill="#94BB20" cx="17" cy="7" r="2"></circle>
+                        </g>
+                        <rect id="Background" stroke="#DDDDDD" fill-opacity="0.15" fill="#000000" x="0.5" y="0.5" width="225" height="162" rx="4"></rect>
+                        <g id="background">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M53,93 L173,93 L173,103 C173,104.104569 172.104569,105 171,105 L55,105 C53.8954305,105 53,104.104569 53,103 L53,93 L53,93 Z" id="background" fill="#F6F6F6"></path>
+                        <rect id="Rectangle" fill="#BBBBBB" x="75" y="45" width="80" height="5" rx="1"></rect>
+                        <rect id="Rectangle" fill="#00549B" x="150" y="96" width="19" height="6" rx="1"></rect>
+                        <rect id="Rectangle" fill-opacity="0.24" fill="#00549B" x="133" y="98" width="12" height="2"></rect>
+                        <rect id="Rectangle" fill="#DDDDDD" x="62" y="69" width="80" height="4" rx="1"></rect>
+                        <rect id="Rectangle" fill="#DDDDDD" x="62" y="60" width="100" height="4" rx="1"></rect>
+                        <rect id="Rectangle" fill="#DDDDDD" x="62" y="78" width="30" height="4" rx="1"></rect>
+                        <rect id="Rectangle" fill="#BBBBBB" x="62" y="44" width="7" height="7" rx="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="226px" height="163px" viewBox="0 0 226 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>hid-accordion__thumb</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Component---Accordion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-36.000000, -1590.000000)">
+            <g id="hid-accordion__thumb" transform="translate(36.000000, 1590.000000)">
+                <g id="hid-accordion__usage">
+                    <g id="accordion__list-item" transform="translate(0.000000, 50.000000)">
+                        <g id="accordion__content">
+                            <path d="M0.5,0.5 L0.5,53 C0.5,54.9329966 2.06700338,56.5 4,56.5 L222,56.5 C223.932997,56.5 225.5,54.9329966 225.5,53 L225.5,0.5 L0.5,0.5 Z" id="Background" stroke="#DDDDDD" fill="#FFFFFF"></path>
+                            <rect id="Rectangle" fill="#DDDDDD" x="7.345" y="9" width="188.145" height="8" rx="1"></rect>
+                            <rect id="Rectangle" fill="#DDDDDD" x="7.345" y="22" width="188.145" height="8" rx="1"></rect>
+                            <rect id="Rectangle" fill="#DDDDDD" x="7.60942761" y="35" width="105.771044" height="8" rx="1"></rect>
+                        </g>
+                    </g>
+                    <g id="accordion__list-item">
+                        <g id="accordion__title">
+                            <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="225" height="23" rx="4"></rect>
+                            <rect id="Rectangle" fill="#BBBBBB" x="8.37037037" y="8" width="145.781414" height="7" rx="1"></rect>
+                            <g id="content/ic_add" transform="translate(205.000000, 5.000000)">
+                                <g id="ic_add">
+                                    <polygon id="Bounds" points="0 0 14 0 14 14 0 14"></polygon>
+                                    <polygon id="Shape" fill="#00AEEF" points="11.0833333 7.58333333 7.58333333 7.58333333 7.58333333 11.0833333 6.41666667 11.0833333 6.41666667 7.58333333 2.91666667 7.58333333 2.91666667 6.41666667 6.41666667 6.41666667 6.41666667 2.91666667 7.58333333 2.91666667 7.58333333 6.41666667 11.0833333 6.41666667"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="accordion__list-item" transform="translate(0.000000, 111.000000)">
+                        <g id="accordion__title">
+                            <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="225" height="23" rx="4"></rect>
+                            <rect id="Rectangle" fill="#BBBBBB" x="8.37037037" y="8" width="145.781414" height="7" rx="1"></rect>
+                            <g id="content/ic_add" transform="translate(205.000000, 5.000000)">
+                                <g id="ic_add">
+                                    <polygon id="Bounds" points="0 0 14 0 14 14 0 14"></polygon>
+                                    <polygon id="Shape" fill="#00AEEF" points="11.0833333 7.58333333 7.58333333 7.58333333 7.58333333 11.0833333 6.41666667 11.0833333 6.41666667 7.58333333 2.91666667 7.58333333 2.91666667 6.41666667 6.41666667 6.41666667 6.41666667 2.91666667 7.58333333 2.91666667 7.58333333 6.41666667 11.0833333 6.41666667"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="accordion__list-item" transform="translate(0.000000, 28.000000)">
+                        <g id="accordion__title">
+                            <rect id="background" stroke="#DDDDDD" fill="#DDDDDD" x="0.5" y="0.5" width="225" height="23" rx="4"></rect>
+                            <rect id="Rectangle" fill="#999999" x="8.37037037" y="8" width="145.781414" height="7" rx="1"></rect>
+                            <g id="content/ic_remove" transform="translate(205.000000, 5.000000)">
+                                <g id="ic_remove">
+                                    <polygon id="Bounds" points="0 0 14 0 14 14 0 14"></polygon>
+                                    <polygon id="Shape" fill="#00AEEF" points="11.0833333 7.58333333 2.91666667 7.58333333 2.91666667 6.41666667 11.0833333 6.41666667"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="accordion__list-item" transform="translate(0.000000, 139.000000)">
+                        <g id="accordion__title">
+                            <rect id="background" stroke="#DDDDDD" fill="#FFFFFF" x="0.5" y="0.5" width="225" height="23" rx="4"></rect>
+                            <rect id="Rectangle" fill="#BBBBBB" x="8.37037037" y="8" width="145.781414" height="7" rx="1"></rect>
+                            <g id="content/ic_add" transform="translate(205.000000, 5.000000)">
+                                <g id="ic_add">
+                                    <polygon id="Bounds" points="0 0 14 0 14 14 0 14"></polygon>
+                                    <polygon id="Shape" fill="#00AEEF" points="11.0833333 7.58333333 7.58333333 7.58333333 7.58333333 11.0833333 6.41666667 11.0833333 6.41666667 7.58333333 2.91666667 7.58333333 2.91666667 6.41666667 6.41666667 6.41666667 6.41666667 2.91666667 7.58333333 2.91666667 7.58333333 6.41666667 11.0833333 6.41666667"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
