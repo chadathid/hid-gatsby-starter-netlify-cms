@@ -73,11 +73,11 @@ const NavbarTemplate = class extends React.Component {
 							<Link activeClassName="is-active" className="navbar-item" to="/gettingstarted">
 								Getting Started
 							</Link>
-							<Link activeClassName="is-active" className="navbar-item" to="/?fundamentals">
+							<Link activeClassName="is-active" className="navbar-item" to="/fundamentals">
 								Fundamentals
 							</Link>
 							<div className={`navbar-item has-dropdown is-hoverable ${this.state.activeDropdownClass}`}>
-								<Link activeClassName="is-active" className="navbar-link is-arrowless" partiallyActive={true} to="/components/">
+								<Link activeClassName="is-active" className="navbar-link is-arrowless" partiallyActive={true} to="/components">
 									Components
 								</Link>
 								<div className="navbar-dropdown">
@@ -89,13 +89,13 @@ const NavbarTemplate = class extends React.Component {
 										))}
 								</div>
 							</div>
-							<Link activeClassName="is-active" className="navbar-item" to="/?widgets">
+							<Link activeClassName="is-active" className="navbar-item" to="/components">
 								Widgets
 							</Link>
-							<Link activeClassName="is-active" className="navbar-item" to="/?ui">
+							<Link activeClassName="is-active" className="navbar-item" to="/ui-shell">
 								UI Shell
 							</Link>
-							<Link activeClassName="is-active" className="navbar-item" to="/about">
+							<Link activeClassName="is-active" className="navbar-item" to="/page-templates">
 								Page Templates
 							</Link>
 						</div>
