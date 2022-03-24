@@ -9,7 +9,7 @@ import ComponentPreview from "./preview-templates/ComponentPreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 import GettingStartedPagePreview from "./preview-templates/GettingStartedPagePreview";
 import FundamentalsPageTemplate from "./preview-templates/FundamentalsPagePreview";
-import UISHellPageTemplate from "./preview-templates/UISHellPagePreview";
+import UIShellPageTemplate from "./preview-templates/UIShellPagePreview";
 import PageTemplatesPageTemplate from "./preview-templates/PageTemplatesPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
@@ -22,5 +22,5 @@ CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("components", ComponentPreview);
 CMS.registerPreviewTemplate("getting-started", GettingStartedPagePreview);
 CMS.registerPreviewTemplate("fundamentals", FundamentalsPageTemplate);
-CMS.registerPreviewTemplate("ui-shell", UISHellPageTemplate);
+CMS.registerPreviewTemplate("ui-shell", UIShellPageTemplate);
 CMS.registerPreviewTemplate("page-templates", PageTemplatesPageTemplate);
