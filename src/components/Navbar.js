@@ -44,6 +44,7 @@ const NavbarTemplate = class extends React.Component {
 			let regexp = /^\/components/;
 			if (regexp.test(location)) {
 				this.state.activeDropdownClass = "is-active-dropdown";
+				/// this.setState({ activeDropdownClass: "is-active-dropdown" });
 			}
 		}
 
