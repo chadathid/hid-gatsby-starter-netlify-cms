@@ -4,15 +4,15 @@ import { graphql, StaticQuery, Link } from "gatsby";
 const AsideMenuTemplate = class extends React.Component {
 	render() {
 		const { data } = this.props;
-		const { edges: componentLinks } = data.allMarkdownRemark;
+		const { edges: itemLinks } = data.allMarkdownRemark;
 		return (
 			<aside className="menu aside-menu">
 				<p className="menu-label">Components</p>
 				<ul className="menu-list">
-					{componentLinks &&
-						componentLinks.map(({ node: componentLink }) => (
-							<Link activeClassName="is-active" to={componentLink.fields.slug} key={Math.random()}>
-								{componentLink.frontmatter.title}
+					{itemLinks &&
+						itemLinks.map(({ node: itemLink }) => (
+							<Link activeClassName="is-active" to={itemLink.fields.slug} key={Math.random()}>
+								{itemLink.frontmatter.title}
 							</Link>
 						))}
 				</ul>

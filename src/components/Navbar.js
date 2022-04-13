@@ -10,7 +10,7 @@ const NavbarTemplate = class extends React.Component {
 		this.state = {
 			active: false,
 			navBarActiveClass: "",
-			activeDropdownClass: "",
+			activeComponentsDropdownClass: "",
 		};
 	}
 
@@ -36,15 +36,19 @@ const NavbarTemplate = class extends React.Component {
 
 	render() {
 		const { data } = this.props;
-		const { edges: componentLinks } = data.allMarkdownRemark;
+		const { edges: componentLinks } = data.components;
+		const { edges: widgetLinks } = data.widgets;
 
 		const location = this.props.location ? this.props.location.pathname : "";
 
 		if (location !== "") {
 			let regexp = /^\/components/;
 			if (regexp.test(location)) {
-				this.state.activeDropdownClass = "is-active-dropdown";
-				/// this.setState({ activeDropdownClass: "is-active-dropdown" });
+				this.state.activeComponentsDropdownClass = "is-active-dropdown";
+			}
+			regexp = /^\/widgets/;
+			if (regexp.test(location)) {
+				this.state.activeWidgetsDropdownClass = "is-active-dropdown";
 			}
 		}
 
@@ -77,7 +81,7 @@ const NavbarTemplate = class extends React.Component {
 							<Link activeClassName="is-active" className="navbar-item" to="/fundamentals">
 								Fundamentals
 							</Link>
-							<div className={`navbar-item has-dropdown is-hoverable ${this.state.activeDropdownClass}`}>
+							<div className={`navbar-item has-dropdown is-hoverable ${this.state.activeComponentsDropdownClass}`}>
 								<Link activeClassName="is-active" className="navbar-link is-arrowless" partiallyActive={true} to="/components">
 									Components
 								</Link>
@@ -90,9 +94,22 @@ const NavbarTemplate = class extends React.Component {
 										))}
 								</div>
 							</div>
-							<Link activeClassName="is-active" className="navbar-item" to="/components">
+							<div className={`navbar-item has-dropdown is-hoverable ${this.state.activeWidgetsDropdownClass}`}>
+								<Link activeClassName="is-active" className="navbar-link is-arrowless" partiallyActive={true} to="/widgets">
+									Widgets
+								</Link>
+								<div className="navbar-dropdown">
+									{widgetLinks &&
+										widgetLinks.map(({ node: widgetLink, key }) => (
+											<Link activeClassName="is-active" className="navbar-item" to={widgetLink.fields.slug} key={Math.random()}>
+												{widgetLink.frontmatter.title}
+											</Link>
+										))}
+								</div>
+							</div>
+							{/* <Link activeClassName="is-active" className="navbar-item" to="/widgets">
 								Widgets
-							</Link>
+							</Link> */}
 							<Link activeClassName="is-active" className="navbar-item" to="/ui-shell">
 								UI Shell
 							</Link>
@@ -113,7 +130,21 @@ export default function Navbar() {
 		<StaticQuery
 			query={graphql`
 				query NavbarQuery {
-					allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "component-post" } } }) {
+					components: allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "component-post" } } }) {
+						edges {
+							node {
+								id
+								fields {
+									slug
+								}
+								frontmatter {
+									title
+									templateKey
+								}
+							}
+						}
+					}
+					widgets: allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "widget-post" } } }) {
 						edges {
 							node {
 								id

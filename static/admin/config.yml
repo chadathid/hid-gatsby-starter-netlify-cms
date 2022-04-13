@@ -29,11 +29,22 @@ collections:
     #       - { label: "Tags", name: "tags", widget: "list" }
     - name: "components"
       label: "Components"
-      folder: "src/pages/components"
+      folder: "src/pages/components/individual"
       create: true
       slug: "{{slug}}"
       fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "component-post" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Featured Image", name: "featuredimage", widget: image }
+          - { label: "Body", name: "body", widget: "markdown" }
+    - name: "widgets"
+      label: "Widgets"
+      folder: "src/pages/widgets/individual"
+      create: true
+      slug: "{{slug}}"
+      fields:
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "widget-post" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Featured Image", name: "featuredimage", widget: image }
@@ -62,6 +73,14 @@ collections:
             name: "components-page"
             fields:
                 - { label: "Template Key", name: "templateKey", widget: "hidden", default: "components-page" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Hero Image", name: image, widget: image }
+                - { label: "Body", name: "body", widget: "markdown" }
+          - file: "src/pages/widgets/index.md"
+            label: "Widgets Page"
+            name: "widgets-page"
+            fields:
+                - { label: "Template Key", name: "templateKey", widget: "hidden", default: "widgets-page" }
                 - { label: "Title", name: "title", widget: "string" }
                 - { label: "Hero Image", name: image, widget: image }
                 - { label: "Body", name: "body", widget: "markdown" }

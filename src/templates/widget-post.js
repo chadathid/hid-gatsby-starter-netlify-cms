@@ -4,19 +4,19 @@ import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
-import AsideMenu from "../components/AsideMenuComponent";
+import AsideMenu from "../components/AsideMenuWidgets";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const ComponentTemplate = ({ content, contentComponent, description, tags, title, helmet }) => {
-	const PostContent = contentComponent || Content;
+export const WidgetTemplate = ({ content, contentWidget, description, tags, title, helmet }) => {
+	const PostContent = contentWidget || Content;
 
 	return (
 		<section className="section">
 			<div className="container content">
 				<div className="columns">
 					<div className="column is-3 has-shadow-right" style={{ position: `relative`, top: `-3rem`, paddingRight: `0` }}>
-						<AsideMenu templateKey="component-post" />
+						<AsideMenu templateKey="widget-post" />
 					</div>
 					<div className="column is-9">
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
@@ -41,25 +41,25 @@ export const ComponentTemplate = ({ content, contentComponent, description, tags
 	);
 };
 
-ComponentTemplate.propTypes = {
+WidgetTemplate.propTypes = {
 	content: PropTypes.node.isRequired,
-	contentComponent: PropTypes.func,
+	contentWidget: PropTypes.func,
 	description: PropTypes.string,
 	title: PropTypes.string,
 	helmet: PropTypes.object,
 };
 
-const Component = ({ data }) => {
+const Widget = ({ data }) => {
 	const { markdownRemark: post } = data;
 
 	return (
 		<Layout>
-			<ComponentTemplate
+			<WidgetTemplate
 				content={post.html}
-				contentComponent={HTMLContent}
+				contentWidget={HTMLContent}
 				description={post.frontmatter.description}
 				helmet={
-					<Helmet titleTemplate="%s | Component">
+					<Helmet titleTemplate="%s | Widget">
 						<title>{`${post.frontmatter.title}`}</title>
 						<meta name="description" content={`${post.frontmatter.description}`} />
 					</Helmet>
@@ -71,16 +71,16 @@ const Component = ({ data }) => {
 	);
 };
 
-Component.propTypes = {
+Widget.propTypes = {
 	data: PropTypes.shape({
 		markdownRemark: PropTypes.object,
 	}),
 };
 
-export default Component;
+export default Widget;
 
 export const pageQuery = graphql`
-	query ComponentByID($id: String!) {
+	query WidgetByID($id: String!) {
 		markdownRemark(id: { eq: $id }) {
 			id
 			html
