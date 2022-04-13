@@ -74,7 +74,7 @@ const NavbarTemplate = class extends React.Component {
 						</div>
 					</div>
 					<div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
-						<div className="navbar-end has-text-centered">
+						<div className="navbar-end has-text-centered has-text-left-touch">
 							<Link activeClassName="is-active" className="navbar-item" to="/gettingstarted">
 								Getting Started
 							</Link>
