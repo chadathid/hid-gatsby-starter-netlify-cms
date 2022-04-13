@@ -1,5 +1,6 @@
 import * as React from "react";
 //import { Link } from "gatsby";
+import settings from "../settings/settings-data.json";
 
 const Footer = class extends React.Component {
 	render() {
@@ -8,17 +9,17 @@ const Footer = class extends React.Component {
 				<div className="column">
 					<span className="is-size-7">
 						© {new Date().getFullYear()} HID Global Corporation/ASSA ABLOY. All rights reserved. |{" "}
-						<a href="https://www.hidglobal.com/about/privacy" className="">
+						<a href={settings.footer.privacylink} className="">
 							Privacy Statement
 						</a>{" "}
 						|{" "}
-						<a href="https://www.hidglobal.com/about/terms-of-use" className="">
+						<a href={settings.footer.termslink} className="">
 							Terms of Use
 						</a>
 					</span>
 				</div>
 				<div className="column has-text-right-tablet">
-					<span className="is-size-7">Version 1.1</span>
+					<span className="is-size-7">Version {settings.footer.version}</span>
 				</div>
 			</footer>
 		);

@@ -190,4 +190,14 @@ collections:
             fields:
                 - { widget: string, name: title, label: Site Title, required: true }
                 - { widget: text, name: description, label: Site Description, default: "", required: false }
-                - { widget: object, name: footer, label: Footer, fields: [{ widget: string, name: version, label: Version, required: true }] }
+                - {
+                      widget: object,
+                      name: footer,
+                      label: Footer,
+                      fields:
+                          [
+                              { widget: string, name: version, label: Version, required: true },
+                              { widget: string, name: privacylink, label: Privacy Statement Full URL, required: true },
+                              { widget: string, name: termslink, label: Terms of Use Full URL, required: true },
+                          ],
+                  }
