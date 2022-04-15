@@ -2,11 +2,10 @@ import CMS from "netlify-cms-app";
 import uploadcare from "netlify-cms-media-library-uploadcare";
 import cloudinary from "netlify-cms-media-library-cloudinary";
 
-// import AboutPagePreview from "./preview-templates/AboutPagePreview";
-// import BlogPostPreview from "./preview-templates/BlogPostPreview";
+import ComponentsIndexPreview from "./preview-templates/ComponentsIndexPreview";
 import ComponentPreview from "./preview-templates/ComponentPreview";
+import WidgetsIndexPreview from "./preview-templates/WidgetsIndexPreview";
 import WidgetPostPreview from "./preview-templates/WidgetPostPreview";
-// import ProductPagePreview from "./preview-templates/ProductPagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 import GettingStartedPagePreview from "./preview-templates/GettingStartedPagePreview";
 import FundamentalsPageTemplate from "./preview-templates/FundamentalsPagePreview";
@@ -17,10 +16,9 @@ CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate("index", IndexPagePreview);
-// CMS.registerPreviewTemplate("about", AboutPagePreview);
-// CMS.registerPreviewTemplate("products", ProductPagePreview);
-// CMS.registerPreviewTemplate("blog", BlogPostPreview);
+CMS.registerPreviewTemplate("components-page", ComponentsIndexPreview);
 CMS.registerPreviewTemplate("components", ComponentPreview);
+CMS.registerPreviewTemplate("widgets-page", WidgetsIndexPreview);
 CMS.registerPreviewTemplate("widgets", WidgetPostPreview);
 CMS.registerPreviewTemplate("getting-started", GettingStartedPagePreview);
 CMS.registerPreviewTemplate("fundamentals", FundamentalsPageTemplate);

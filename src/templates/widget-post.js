@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import AsideMenu from "../components/AsideMenuWidgets";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const WidgetTemplate = ({ content, contentWidget, description, title, helmet }) => {
+export const WidgetTemplate = ({ content, contentWidget, description, title }) => {
 	const PostContent = contentWidget || Content;
 
 	return (
@@ -42,18 +41,10 @@ const Widget = ({ data }) => {
 
 	return (
 		<Layout>
-			<WidgetTemplate
-				content={post.html}
-				contentWidget={HTMLContent}
-				description={post.frontmatter.description}
-				helmet={
-					<Helmet titleTemplate="%s | Widget">
-						<title>{`${post.frontmatter.title}`}</title>
-						<meta name="description" content={`${post.frontmatter.description}`} />
-					</Helmet>
-				}
-				title={post.frontmatter.title}
-			/>
+			<Helmet titleTemplate="%s | Widget">
+				<title>{`${post.frontmatter.title}`}</title>
+			</Helmet>
+			<WidgetTemplate content={post.html} contentWidget={HTMLContent} description={post.frontmatter.description} title={post.frontmatter.title} />
 		</Layout>
 	);
 };

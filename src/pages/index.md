@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Homepage Hero Title
 subheading: Homepage Hero Subheading
-image: /img/hero-HID-key.jpeg
+image: /img/nodes.jpeg
 heading: H1 Page Heading
 content:
   blurbs:

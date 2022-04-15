@@ -1,8 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+// import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import AsideMenu from "../components/AsideMenuComponent";
 import Content, { HTMLContent } from "../components/Content";
@@ -42,18 +43,10 @@ const Component = ({ data }) => {
 
 	return (
 		<Layout>
-			<ComponentTemplate
-				content={post.html}
-				contentComponent={HTMLContent}
-				description={post.frontmatter.description}
-				helmet={
-					<Helmet titleTemplate="%s | Component">
-						<title>{`${post.frontmatter.title}`}</title>
-						<meta name="description" content={`${post.frontmatter.description}`} />
-					</Helmet>
-				}
-				title={post.frontmatter.title}
-			/>
+			<Helmet titleTemplate="%s | Component">
+				<title>{`${post.frontmatter.title}`}</title>
+			</Helmet>
+			<ComponentTemplate content={post.html} contentComponent={HTMLContent} description={post.frontmatter.description} title={post.frontmatter.title} />
 		</Layout>
 	);
 };

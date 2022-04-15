@@ -1,36 +1,70 @@
-import * as React from "react";
-// import PropTypes from "prop-types";
+import React from "react";
+import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { getImage } from "gatsby-plugin-image";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import ComponentRoll from "../components/ComponentRoll";
+import FullWidthImage from "../components/FullWidthImage";
 
-const ComponentsIndexPage = ({ data }) => {
+import Content, { HTMLContent } from "../components/Content";
+
+// eslint-disable-next-line
+export const ComponentsIndexPageTemplate = ({ image, title, body, contentComponent }) => {
+	const heroImage = getImage(image) || image;
+	const PostContent = contentComponent || Content;
+
 	return (
-		<Layout>
-			<div
-				className="full-width-image-container margin-top-0"
-				style={{
-					backgroundImage: `url('/img/hero-HID-components.jpeg')`,
-				}}
-			>
-				<h1 className="has-text-weight-bold is-size-1 full-width-hero-title">Components</h1>
-			</div>
-			<section className="section">
+		<div>
+			<FullWidthImage img={heroImage} title={title} />
+			<section className="section section--gradient">
 				<div className="container">
-					<div className="content">
-						<h3 className="title is-3">The Building Blocks</h3>
-						<p>
-							Components are the key building blocks of any design system. Each component has been designed and coded to solve a specific UI problem for our users.
-							These problems include presenting a list of options to select, enabling the submission of a form, providing feedback, and so on. All of the components
-							in HID Galaxy System have been designed to work together, as parts of a greater whole.
-						</p>
-						<ComponentRoll />
+					<div className="section">
+						<div className="columns">
+							<div className="column is-12">
+								<div className="content">
+									<div className="columns">
+										<div className="column is-12">
+											<PostContent content={body} />
+										</div>
+									</div>
+									<ComponentRoll />
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
+		</div>
+	);
+};
+
+ComponentsIndexPageTemplate.propTypes = {
+	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+	title: PropTypes.string,
+	body: PropTypes.string,
+	contentComponent: PropTypes.func,
+};
+
+const ComponentsIndexPage = ({ data }) => {
+	const { markdownRemark: post } = data;
+
+	return (
+		<Layout>
+			<Helmet titleTemplate="%s">
+				<title>{`${post.frontmatter.title}`}</title>
+			</Helmet>
+			<ComponentsIndexPageTemplate image={post.frontmatter.image} title={post.frontmatter.title} body={post.html} contentComponent={HTMLContent} />
 		</Layout>
 	);
 };
+
+ComponentsIndexPage.propTypes = {
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
+};
+
 export default ComponentsIndexPage;
 
 export const pageQuery = graphql`

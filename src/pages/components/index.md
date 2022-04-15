@@ -1,7 +1,8 @@
 ---
 templateKey: components-page
-title: Component Hero Title Test
+title: About HID Galaxy Components
 image: /img/hero-HID-key.jpeg
 ---
+## The Building Blocks
 
-Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Quis vel eros donec ac odio tempor. Sed vulputate mi sit amet mauris commodo quis. Duis at tellus at urna condimentum mattis. Purus in mollis nunc sed id semper risus in. Est ante in nibh mauris cursus mattis molestie a iaculis. Curabitur vitae nunc sed velit dignissim sodales ut eu. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Nulla pellentesque.
+Components are the key building blocks of any design system. Each component has been designed and coded to solve a specific UI problem for our users. These problems include presenting a list of options to select, enabling the submission of a form, providing feedback, and so on. All of the components in HID Galaxy System have been designed to work together, as parts of a greater whole.

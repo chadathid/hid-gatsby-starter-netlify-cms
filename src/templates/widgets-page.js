@@ -1,36 +1,83 @@
-import * as React from "react";
-// import PropTypes from "prop-types";
+import React from "react";
+import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { getImage } from "gatsby-plugin-image";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import WidgetRoll from "../components/WidgetRoll";
+import FullWidthImage from "../components/FullWidthImage";
 
-const WidgetsIndexPage = ({ data }) => {
+import Content, { HTMLContent } from "../components/Content";
+
+// eslint-disable-next-line
+export const WidgetsIndexPageTemplate = ({ image, title, body, contentComponent }) => {
+	const heroImage = getImage(image) || image;
+	const PostContent = contentComponent || Content;
+
 	return (
-		<Layout>
-			<div
-				className="full-width-image-container margin-top-0"
-				style={{
-					backgroundImage: `url('/img/hero-HID-components.jpeg')`,
-				}}
-			>
-				<h1 className="has-text-weight-bold is-size-1 full-width-hero-title">Widgets</h1>
-			</div>
-			<section className="section">
+		<div>
+			<FullWidthImage img={heroImage} title={title} />
+			<section className="section section--gradient">
 				<div className="container">
-					<div className="content">
-						<h3 className="title is-3">The Building Blocks</h3>
-						<p>
-							Widgets are the key building blocks of any design system. Each widget has been designed and coded to solve a specific UI problem for our users. These
-							problems include presenting a list of options to select, enabling the submission of a form, providing feedback, and so on. All of the components in HID
-							Galaxy System have been designed to work together, as parts of a greater whole.
-						</p>
-						<WidgetRoll />
+					<div className="section">
+						<div className="columns">
+							<div className="column is-12">
+								<div className="content">
+									<div className="columns">
+										<div className="column is-12">
+											<PostContent content={body} />
+										</div>
+									</div>
+									<WidgetRoll />
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
+		</div>
+	);
+};
+
+WidgetsIndexPageTemplate.propTypes = {
+	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+	title: PropTypes.string,
+	// subheading: PropTypes.string,
+	// heading: PropTypes.string,
+	body: PropTypes.string,
+	contentComponent: PropTypes.func,
+	// content: PropTypes.shape({
+	// 	blurbs: PropTypes.array,
+	// }),
+};
+
+const WidgetsIndexPage = ({ data }) => {
+	const { markdownRemark: post } = data;
+
+	return (
+		<Layout>
+			<Helmet titleTemplate="%s">
+				<title>{`${post.frontmatter.title}`}</title>
+			</Helmet>
+			<WidgetsIndexPageTemplate
+				image={post.frontmatter.image}
+				title={post.frontmatter.title}
+				// subheading={post.frontmatter.subheading}
+				// content={post.frontmatter.content}
+				// heading={post.frontmatter.heading}
+				body={post.html}
+				contentComponent={HTMLContent}
+			/>
 		</Layout>
 	);
 };
+
+WidgetsIndexPage.propTypes = {
+	data: PropTypes.shape({
+		markdownRemark: PropTypes.object,
+	}),
+};
+
 export default WidgetsIndexPage;
 
 export const pageQuery = graphql`
