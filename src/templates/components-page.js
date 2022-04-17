@@ -4,13 +4,14 @@ import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
-import ComponentRoll from "../components/ComponentRoll";
+//import ComponentRoll from "../components/ComponentRoll";
+import ElementGrid from "../components/Elements";
 import FullWidthImage from "../components/FullWidthImage";
 
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const ComponentsIndexPageTemplate = ({ image, title, body, contentComponent }) => {
+export const ComponentsIndexPageTemplate = ({ image, title, body, contentComponent, rollElements }) => {
 	const heroImage = getImage(image) || image;
 	const PostContent = contentComponent || Content;
 
@@ -28,7 +29,7 @@ export const ComponentsIndexPageTemplate = ({ image, title, body, contentCompone
 											<PostContent content={body} />
 										</div>
 									</div>
-									<ComponentRoll />
+									<ElementGrid gridItems={rollElements} />
 								</div>
 							</div>
 						</div>
@@ -48,13 +49,20 @@ ComponentsIndexPageTemplate.propTypes = {
 
 const ComponentsIndexPage = ({ data }) => {
 	const { markdownRemark: post } = data;
+	const { allMarkdownRemark: elements } = data;
 
 	return (
 		<Layout>
 			<Helmet titleTemplate="%s">
 				<title>{`${post.frontmatter.title}`}</title>
 			</Helmet>
-			<ComponentsIndexPageTemplate image={post.frontmatter.image} title={post.frontmatter.title} body={post.html} contentComponent={HTMLContent} />
+			<ComponentsIndexPageTemplate
+				image={post.frontmatter.image}
+				title={post.frontmatter.title}
+				body={post.html}
+				contentComponent={HTMLContent}
+				rollElements={elements.edges}
+			/>
 		</Layout>
 	);
 };
@@ -79,6 +87,28 @@ export const pageQuery = graphql`
 				}
 			}
 			html
+		}
+		allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "component-post" } } }) {
+			edges {
+				node {
+					excerpt(pruneLength: 400)
+					id
+					fields {
+						slug
+					}
+					frontmatter {
+						title
+						templateKey
+						featuredimage {
+							childImageSharp {
+								gatsbyImageData(width: 120, quality: 100, layout: CONSTRAINED)
+							}
+							publicURL
+							ext
+						}
+					}
+				}
+			}
 		}
 	}
 `;

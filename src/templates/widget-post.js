@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import AsideMenu from "../components/AsideMenuWidgets";
+import AsideMenu from "../components/AsideMenu";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const WidgetTemplate = ({ content, contentWidget, description, title }) => {
+export const WidgetTemplate = ({ content, contentWidget, description, title, asideMenuItems }) => {
 	const PostContent = contentWidget || Content;
 
 	return (
@@ -15,7 +15,7 @@ export const WidgetTemplate = ({ content, contentWidget, description, title }) =
 			<div className="container content">
 				<div className="columns">
 					<div className="column is-3 has-shadow-right" style={{ position: `relative`, top: `-3rem`, paddingRight: `0` }}>
-						<AsideMenu templateKey="widget-post" />
+						<AsideMenu heading="Widgets" menuItems={asideMenuItems} />
 					</div>
 					<div className="column is-9">
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
@@ -37,14 +37,20 @@ WidgetTemplate.propTypes = {
 };
 
 const Widget = ({ data }) => {
-	const { markdownRemark: post } = data;
+	const { page, asideMenu } = data;
 
 	return (
 		<Layout>
 			<Helmet titleTemplate="%s | Widget">
-				<title>{`${post.frontmatter.title}`}</title>
+				<title>{`${page.frontmatter.title}`}</title>
 			</Helmet>
-			<WidgetTemplate content={post.html} contentWidget={HTMLContent} description={post.frontmatter.description} title={post.frontmatter.title} />
+			<WidgetTemplate
+				content={page.html}
+				contentWidget={HTMLContent}
+				description={page.frontmatter.description}
+				title={page.frontmatter.title}
+				asideMenuItems={asideMenu.edges}
+			/>
 		</Layout>
 	);
 };
@@ -59,12 +65,26 @@ export default Widget;
 
 export const pageQuery = graphql`
 	query WidgetByID($id: String!) {
-		markdownRemark(id: { eq: $id }) {
+		page: markdownRemark(id: { eq: $id }) {
 			id
 			html
 			frontmatter {
 				title
 				description
+			}
+		}
+		asideMenu: allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "widget-post" } } }) {
+			edges {
+				node {
+					id
+					fields {
+						slug
+					}
+					frontmatter {
+						title
+						templateKey
+					}
+				}
 			}
 		}
 	}

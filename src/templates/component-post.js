@@ -1,15 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
-// import { graphql, Link } from "gatsby";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import AsideMenu from "../components/AsideMenuComponent";
+import AsideMenu from "../components/AsideMenu";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const ComponentTemplate = ({ content, contentComponent, description, title, helmet }) => {
+export const ComponentTemplate = ({ content, contentComponent, description, title, asideMenuItems }) => {
 	const PostContent = contentComponent || Content;
 
 	return (
@@ -17,7 +15,7 @@ export const ComponentTemplate = ({ content, contentComponent, description, titl
 			<div className="container content">
 				<div className="columns">
 					<div className="column is-3 has-shadow-right" style={{ position: `relative`, top: `-3rem`, paddingRight: `0` }}>
-						<AsideMenu templateKey="component-post" />
+						<AsideMenu heading="Components" menuItems={asideMenuItems} />
 					</div>
 					<div className="column is-9">
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
@@ -39,21 +37,27 @@ ComponentTemplate.propTypes = {
 };
 
 const Component = ({ data }) => {
-	const { markdownRemark: post } = data;
+	const { page, asideMenu } = data;
 
 	return (
 		<Layout>
 			<Helmet titleTemplate="%s | Component">
-				<title>{`${post.frontmatter.title}`}</title>
+				<title>{`${page.frontmatter.title}`}</title>
 			</Helmet>
-			<ComponentTemplate content={post.html} contentComponent={HTMLContent} description={post.frontmatter.description} title={post.frontmatter.title} />
+			<ComponentTemplate
+				content={page.html}
+				contentComponent={HTMLContent}
+				description={page.frontmatter.description}
+				title={page.frontmatter.title}
+				asideMenuItems={asideMenu.edges}
+			/>
 		</Layout>
 	);
 };
 
 Component.propTypes = {
 	data: PropTypes.shape({
-		markdownRemark: PropTypes.object,
+		page: PropTypes.object,
 	}),
 };
 
@@ -61,12 +65,26 @@ export default Component;
 
 export const pageQuery = graphql`
 	query ComponentByID($id: String!) {
-		markdownRemark(id: { eq: $id }) {
+		page: markdownRemark(id: { eq: $id }) {
 			id
 			html
 			frontmatter {
 				title
 				description
+			}
+		}
+		asideMenu: allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___title] }, filter: { frontmatter: { templateKey: { eq: "component-post" } } }) {
+			edges {
+				node {
+					id
+					fields {
+						slug
+					}
+					frontmatter {
+						title
+						templateKey
+					}
+				}
 			}
 		}
 	}
