@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="913px" height="172px" viewBox="0 0 913 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>hid-footer__color</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Image-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer-images" transform="translate(-31.000000, -1060.000000)">
+            <g id="hid-footer__color" transform="translate(31.000000, 1060.000000)">
+                <g id="hid-footer--expanded">
+                    <g id="footer__version" transform="translate(0.000000, 75.000000)">
+                        <rect id="Rectangle" fill="#00539B" x="0" y="0" width="800" height="32"></rect>
+                        <text id="Version-1.1" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="716.035156" y="20">Version 1.1 </tspan>
+                        </text>
+                    </g>
+                    <g id="footer__copyright">
+                        <rect id="Rectangle" fill="#F6F6F6" x="0" y="0" width="800" height="75"></rect>
+                        <g id="Group-2" transform="translate(0.000000, 11.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="800" height="64"></rect>
+                            <text id="©-2018-HID-Global-Co" opacity="0.869698661" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" letter-spacing="0.171428574" fill="#222222">
+                                <tspan x="24" y="27">© 2018 HID Global Corporation/ASSA ABLOY. All rights reserved.  |                                      | </tspan>
+                            </text>
+                            <text id="Privacy-Statement" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="20" letter-spacing="0.171428571" fill="#00539B">
+                                <tspan x="396" y="27">Privacy Statement </tspan>
+                            </text>
+                            <text id="Terms-of-Use" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="20" letter-spacing="0.171428571" fill="#00539B">
+                                <tspan x="517" y="27">Terms of Use</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="hid-footer--base" transform="translate(0.000000, 139.000000)">
+                    <g id="footer__version">
+                        <rect id="Rectangle" fill="#00539B" x="0" y="0.914893617" width="800" height="32"></rect>
+                        <text id="©-2019-HID-Global-Co" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="24" y="22">© 2019 HID Global Corporation/ASSA ABLOY AB. All rights reserved.</tspan>
+                        </text>
+                        <text id="Version-1.1" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="716.035156" y="21">Version 1.1 </tspan>
+                        </text>
+                        <text id="Release-date-10/26/1" opacity="0.561314174" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="601.115234" y="21">Release date 10/26/19 —</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Footer-Base" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" letter-spacing="-0.1875" fill="#EA1D94">
+                    <tspan x="826.5" y="160">Footer Base</tspan>
+                </text>
+                <g id="Group-4" transform="translate(808.000000, 139.000000)" stroke-linecap="square">
+                    <path d="M0,0.163265306 L8,0.163265306" id="Line-3" stroke="#FF00C6"></path>
+                    <path d="M0,31.8367347 L8,31.8367347" id="Line-3" stroke="#FF00C6"></path>
+                    <path d="M3.5,0.326530612 L3.5,31.6734694" id="Line-5" stroke="#EA1D94"></path>
+                </g>
+                <text id="Footer-Expanded" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" letter-spacing="-0.1875" fill="#EA1D94">
+                    <tspan x="826.5" y="95">Footer Expanded</tspan>
+                </text>
+                <g id="Group-4" transform="translate(808.000000, 10.000000)" stroke-linecap="square">
+                    <path d="M0,0.5 L8,0.5" id="Line-3" stroke="#FF00C6"></path>
+                    <path d="M0,62.5 L8,62.5" id="Line-3" stroke="#FF00C6"></path>
+                    <path d="M0,97.5 L8,97.5" id="Line-3" stroke="#FF00C6"></path>
+                    <path d="M3.5,1 L3.5,97" id="Line-5" stroke="#EA1D94"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
