@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
-//import ComponentRoll from "../components/ComponentRoll";
 import ElementGrid from "../components/Elements";
 import FullWidthImage from "../components/FullWidthImage";
 

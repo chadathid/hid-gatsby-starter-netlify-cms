@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql, StaticQuery, Link } from "gatsby";
-//import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
 import { useLocation } from "@reach/router";
 

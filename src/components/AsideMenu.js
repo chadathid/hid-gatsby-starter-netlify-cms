@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 const AsideMenu = ({ heading, menuItems }) => (
-	<aside className="menu aside-menu">
+	<aside className="menu aside-menu is-hidden-mobile">
 		<p className="menu-label">{heading}</p>
 		<ul className="menu-list">
 			{menuItems &&
