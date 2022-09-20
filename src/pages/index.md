@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Homepage Hero Title
-subheading: Homepage Hero Subheading
+title: HID Design System
+subheading: User Experience and Interface Consistency for HID Software Products
 image: /img/nodes.jpeg
 heading: H1 Page Heading
 content:
