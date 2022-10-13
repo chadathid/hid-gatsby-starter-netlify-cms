@@ -20,10 +20,6 @@ other text.\
 Links are for navigation and buttons are for taking actions they are to be\
 used in different context.
 
-
-
-
-
 ## **Behaviour**
 
 A link state is essentially how a link looks at different points of interaction.\
