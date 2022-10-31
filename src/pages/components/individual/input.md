@@ -1,16 +1,48 @@
 ---
 templateKey: component-post
-title: Input
-description: Text inputs enable the user to interact with and input data. Use
-    when the application requires long-form content from the user. HTML elements
-    that fall under the input guidelines are <input>and <text-area>.
-featuredimage: /img/hid-input.svg
+title: Text Input
+description: >+
+  Text input is an interactive field that allows users to enter text and data.
+  It’s commonly used in forms and dialogs.
+
+featuredimage: /img/default.png
 ---
+## **G﻿uidelines**
 
-## About Input
+* Where possible, add programmatic assistance. Detect and pre-fill inputs to reduce errors and save time. For example Placeholder text provides hints or examples of what to enter.
+* When the software can’t determine the value that belongs in an input, use type-ahead to make suggestions.
+* Use sentence-case for default values, detected values, and auto-completion text.
 
-You can style the HTML `<input>`element to align with the HID Global brand by using the `.hid-input`class on the `<input>`element.
 
-The `<input>`element includes support for all HTML5 types: `text`, `password`, `datetime`, `datetime-local`, `date`, `month`, `time`, `week`, `number`, `email`, `url`, `search`, `tel`, and `color`.
 
-The static state is for form elements that can’t be modified by the user. It is used for small, non-editable form fields that sit next to inputs and allows the size and height to align. It is not meant for large paragraphs of text.
+The text area and text input components have different use cases. Consider the length and type of content when choosing between them.
+
+**W﻿hen to use**
+
+**Text input** - For single-line, short entries, use the text input component. It’s commonly used for name, phone number, or email entries in forms. 
+
+**Text area** -I f text exceeds more than one line, use the text area component. The larger field size encourages longer responses. It’s typically used for comments or questions in forms. 
+
+![](/img/default.png)
+
+
+
+## **V﻿ariants**
+
+![](/img/helper-text.png)
+
+![](/img/input-text-withtooltip.png)
+
+
+
+![](/img/text-area.png)
+
+
+
+
+
+## **A﻿ccessiblity**
+
+Labels must be visible when an input gets focus.\
+Labels must be announced to the screen reader on focus.\
+Ensure the helper text that appears under an input is read when an assistive technology user stops at an input using ARIA.
