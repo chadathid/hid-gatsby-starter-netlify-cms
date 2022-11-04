@@ -7,7 +7,7 @@ featuredimage: /img/hid-radio-button.svg
 ---
 ![](/img/radio-button.png)
 
-## **Guidance**
+## **G﻿uidelines**
 
 Radio buttons are used for individual, not multiple selections from a list of choices. Only one radio button can be selected at a time. When a new item is selected, the previous choice is automatically deselected.
 
@@ -20,17 +20,9 @@ Can be used in forms on a full page, in modals, or on side panels.\
 **Selection in List**\
 Used to choose a single item within a data table or list.
 
-
-
 ## **Behaviour**
 
-
-
 ![](/img/radio-button-states.png)
-
-
-
-
 
 ## **Accessibility**
 
