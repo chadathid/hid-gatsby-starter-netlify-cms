@@ -7,7 +7,7 @@ description: |-
   as a way to navigate web or to move within a site.
 featuredimage: /img/link-.png
 ---
-## **General Guidance**
+## **Guidelines**
 
 Links are used primarily as a navigational element. Links may also change what or how data is displayed (i.e., view more, show all).
 
