@@ -2,28 +2,36 @@
 templateKey: widget-post
 title: Modal
 description: >-
-  Modals are effective in breaking user flow by design. They are most effective
-  when a task must be completed before a user can continue. When used correctly,
-  modals should be used sparingly to limit disruption to a user experience. They
-  might be a blessing of additional screen real estate, providing a way to
-  deliver contextual information, notifications and other actions relevant to
-  the current screen. On the other hand, modals might feel like a hack that
-  you’ve been forced to commit in order to cram extra content on the screen.
-
-
-  Don’t surprise users by popping up a modal. Let a user’s action, such as a button click, following a link or selecting an option, trigger the modal. Uninvited modals may surprise the user and result in a quick dismissal of the window.
-
-
-  When modal is open, use a lightbox effect (darken the background). This draws attention to the modal and indicates that the user cannot interact with the parent page.
+  
+  A modal disables page content and focuses the user’s attention on a single task or message. Modals are effective in breaking user flow by design. They are most effective when a task must be completed before a user can continue. 
 featuredimage: /img/modal-widget.svg
 ---
-
-
 ## General Guidance
 
-**You may consider using a modal window when you need to:**
+**W﻿hen to use**
 
-* **Grab the user’s attention** - Use when you want to interrupt a user’s current task to catch the user’s full attention to something more important.
-* **Need user input** - Use when you want to get information from the user. Ex. sign up or login form.
-* **Show additional information in context** - Use when you want to show additional information without losing the context of the parent page. Ex. showing larger images or videos.
-* **Show additional information (not in context)** - Use when you want to show information that is not directly related to the parent page or other options that are “independent” from other pages. Ex. notifications.
+*  Use when you want to interrupt a user’s current task to catch the user’s full attention to something more important.
+* Use when you want to get information from the user. Ex. sign up or login form.
+*  Use when you want to show additional information without losing the context of the parent page. Ex. showing larger images or videos.
+* Use when you want to show information that is not directly related to the parent page or other options that are “independent” from other pages. Ex. notifications.
+* When modal is open, use a light box effect (darken the background). This draws attention to the modal and indicates that the user cannot interact with the parent page.
+
+  A modal window should not be too big or too small. We follow 3 sizes for desktop usage based on the purpose and content.\
+  \
+  **Small** - 300 wide\
+  **Medium** - 500 wide\
+  **Large** - 800 wide\
+  \
+  **Size** — Don’t use more than 50% of the screen for the overlay. The goal of a modal is to keep context, therefore it should not take up the whole screen view. Content should fit the modal. If a scrollbar is needed, you should consider a new page instead.\
+  \
+  **Location** — Upper half of the screen, preferably center aligned because in mobile view modal may be lost if placed lower.\
+  \
+  **Appearance** — A modal will have clear title, precise content and deffinate action to move on with the main flow. When opening an overlay it’s important that the page behind is slightly darkened. 
+
+![](/img/modal.png)
+
+## **A﻿ccessibility**
+
+Modal Dialogs are a tricky thing to make accessible. For visual users navigating with a mouse, creating a dialog is as simple as styling the element to look visually different from the rest of the page. However, users navigating a site via a keyboard and/or screenreader need a lot more.\
+\
+Be sure to add aria-labelledby="id...", referencing the modal title, to the Modal. Additionally, you may give a description of your modal with the aria-describedby="id..."prop on the Modal.
