@@ -6,7 +6,7 @@ description: Notifications are messages that communicate information to the
   further information about the information in the notification.
 featuredimage: /img/hid-notification.svg
 ---
-## **Guidance**
+## **Guidelines**
 
 * Use notifications to inform users of important status changes and updates
 * Limit action labels to two words or less.
@@ -21,8 +21,6 @@ featuredimage: /img/hid-notification.svg
 **Line notification** - For notifications which are relevant to a piece of content on the page, use Inline Notifications.
 
 **Toast** - For notifications which are temporary and need to provide visual feedback, use Toast Notifications.
-
-
 
 ![](/img/notification.png)
 
