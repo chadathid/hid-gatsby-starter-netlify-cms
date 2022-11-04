@@ -6,7 +6,7 @@ description: >-
   A modal disables page content and focuses the user’s attention on a single task or message. Modals are effective in breaking user flow by design. They are most effective when a task must be completed before a user can continue. 
 featuredimage: /img/modal-widget.svg
 ---
-## General Guidance
+## **General Guidance**
 
 **W﻿hen to use**
 
