@@ -6,7 +6,7 @@ description: >-
   The Dropdown allows selection of single or multiple items from a list, which allows the users to choose an option and execute the relevant action.
 featuredimage: /img/dropdown-white-background.png
 ---
-## **Guidance**
+## **Guidelines**
 
 * Include a label associated to the content of the dropdown to guide the user in choosing the appropriate value from the list.
 * The values within a dropdown list should be sorted in a logical order that is easily scannable.
