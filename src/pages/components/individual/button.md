@@ -8,7 +8,7 @@ featuredimage: /img/hid-button.svg
 ---
 ![](/img/buttons.png)
 
-## **General Guidance**
+##  **Guidelines**
 
 Buttons are used primarily on action items.
 
@@ -25,25 +25,15 @@ Buttons are used primarily on action items.
 * Icons used in buttons must be directly related to the * action that the user is taking.
 * Icons must be the same color value as the text within a button.
 
-
-
 **When to use**\
 Use a button when you are performing an action, such as: “submit,” “merge,” “create new,” “upload,” etc.
 
 **Do not use**\
 Never use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page.
 
-
-
 ## **Behaviour**
 
-
-
 ![](/img/frame-2.png)
-
-
-
-
 
 **Variant**                      
 
@@ -55,11 +45,7 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 **With icon** - Icons can be used to augment communication of what button does.\
 **Disabled** - Signals that the user cannot proceed until input data is collected.
 
-
-
-
-
-## **Accessibility** 
+## **Accessibility**
 
 Finally, color alone does not suffice when conveying the meaning of buttons.\
 \
