@@ -8,7 +8,7 @@ featuredimage: /img/hid-button.svg
 ---
 ![](/img/buttons.png)
 
-##  **Guidelines**
+## **Guidelines**
 
 Buttons are used primarily on action items.
 
@@ -33,7 +33,7 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 
 ## **Behaviour**
 
-![](/img/frame-2.png)
+![](/img/button-2.png)
 
 **Variant**                      
 
