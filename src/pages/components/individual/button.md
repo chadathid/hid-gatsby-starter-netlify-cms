@@ -20,9 +20,8 @@ Buttons are used primarily on action items.
 
 **When using Icons**
 
-* Use Icons within buttons.
 * Icons should always appear to the right of the text.
-* Icons used in buttons must be directly related to the * action that the user is taking.
+* Icons used in buttons must be directly related to the action that the user is taking.
 * Icons must be the same color value as the text within a button.
 
 **When to use**\
