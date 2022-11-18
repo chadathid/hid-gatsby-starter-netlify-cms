@@ -11,14 +11,11 @@ featuredimage: /img/link-.png
 
 Links are used primarily as a navigational element. Links may also change what or how data is displayed (i.e., view more, show all).
 
-A link is a control or a text piece that, when clicked, takes the user to\
-another page.\
+A link is a control or a text piece that, when clicked, takes the user to another page.\
 \
-Link text should always be meaningful, descriptive without relying on\
-other text.\
+Link text should always be meaningful, descriptive without relying on other text.\
 \
-Links are for navigation and buttons are for taking actions they are to be\
-used in different context.
+Links are for navigation and buttons are for taking actions they are to be used in different context.
 
 ## **Behaviour**
 
