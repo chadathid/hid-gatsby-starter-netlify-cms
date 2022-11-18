@@ -13,19 +13,15 @@ featuredimage: /img/default.png
 * When the software can’t determine the value that belongs in an input, use type-ahead to make suggestions.
 * Use sentence-case for default values, detected values, and auto-completion text.
 
-
-
 The text area and text input components have different use cases. Consider the length and type of content when choosing between them.
 
 **W﻿hen to use**
 
 **Text input** - For single-line, short entries, use the text input component. It’s commonly used for name, phone number, or email entries in forms. 
 
-**Text area** -I f text exceeds more than one line, use the text area component. The larger field size encourages longer responses. It’s typically used for comments or questions in forms. 
+**Text area** -If text exceeds more than one line, use the text area component. The larger field size encourages longer responses. It’s typically used for comments or questions in forms. 
 
 ![](/img/default.png)
-
-
 
 ## **V﻿ariants**
 
@@ -33,13 +29,7 @@ The text area and text input components have different use cases. Consider the l
 
 ![](/img/input-text-withtooltip.png)
 
-
-
 ![](/img/text-area.png)
-
-
-
-
 
 ## **A﻿ccessiblity**
 
