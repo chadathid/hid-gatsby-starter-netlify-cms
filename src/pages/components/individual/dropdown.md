@@ -10,7 +10,7 @@ featuredimage: /img/dropdown-white-background.png
 
 * Include a label associated to the content of the dropdown to guide the user in choosing the appropriate value from the list.
 * The values within a dropdown list should be sorted in a logical order that is easily scannable.
-* Use a dropdown menu when you need to give users 3 or more options to chooses from of actions to choose from.
+* Use a dropdown menu when you need to give users 3 or more options to chooses from.
 
   **Do not use**\
   When there are less than 3 options to display, use radio buttons or checkboxes instead.
