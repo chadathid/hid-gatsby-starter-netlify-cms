@@ -31,4 +31,16 @@ Do not use Content switcher to navigate between related sections of content, use
 
 ![](/img/content-switcher.png)
 
+# **Behavior**
+
+**Enabled** - This is how the enabled state of the content switcher usually appears and the first content tab should always be the default selection.
+
+**Selected** - The selected state uses a high contrast colour when a user clicks a particular content tab.
+
+**Hover** - The hover state is when a user uses the mouse over the link and it changes state to let the user know that the link is clickable.\
+\
+**Focus** - The focus state is when the user uses the tab key to navigate the content switcher.
+
+
+
 # **A﻿ccessibility**
