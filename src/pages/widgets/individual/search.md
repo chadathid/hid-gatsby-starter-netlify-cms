@@ -9,6 +9,21 @@ description: Search is one of the most important features in many UIs. Users
   navigate away as with global search.
 featuredimage: /img/search-widget.svg
 ---
-## General Guidance
+# **G﻿uidelines**
 
-Search enables users to specify a word or a phrase to find relevant pieces of content without the use of navigation. Search can be used as the primary means of discovering content, or as a filter to aid the user in finding content. for many users search is a primary means of navigating sites and need to always return fast reliable results.
+* The Search Input should be wide enough to fit common search queries or terms.
+* Provide placeholder examples or autosuggested results to help users understand what they are searching.
+* Display the Search Input prominently, to ensure it is discoverable and do not hide the Search input behind an icon.
+* It is recommended to have only one Search per page.
+* Search input should fit into one line. Do not use multiline, Truncate or Wrap the text within the Search input.
+
+**Placement**
+
+* To filter within a section or page always place the search directly above the section. To inform the user that Search is refining the particular section alone.
+* In case of a Global Search place it on the Top Right or in the Header.
+
+  ![]()
+
+  ![](/img/search-default.png)
+
+  # **A﻿ccessibility**
