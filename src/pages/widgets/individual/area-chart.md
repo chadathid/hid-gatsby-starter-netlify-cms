@@ -11,4 +11,44 @@ description: >-
   Area chart communicate the summation of data rather than represent individual data values
 featuredimage: /img/area-chart.png
 ---
-C﻿ontent **"Coming soon"**
+# **G﻿uidelines**
+
+* Each area should have a unique color. Use transparent colors so information isn't obscured in the background.
+* Always include a zero baseline on the y-axis. An Area graph that doesn't include a zero baseline is misleading.
+* The legend is the key to the information. It should be positioned above the graph and in the same order as the sequence of the components.
+* Always label your axes and include the units for the y-axis.
+* On the y-axis, choose increments that are easy to follow. All values on the y-axis must be divisible by the increment itself.
+
+**W﻿hen to use**
+
+**Overlapping Area chart** - This chart compares values between groups and shows the data overlapping.\
+**Stacked Area chart** - A stacked chart is used when tracking total value and to understand the breakdown of that total by groups.
+
+**D﻿o not use**
+
+Avoid using area charts when there are more than 3-4 categories. In that case use line charts.\
+D﻿o not use Area chart if there are negative values.
+
+
+
+![](/img/area-chart-1.png)
+
+**Utility**\
+\
+**Legend** - Present a maximum of 3-4 legends, and if it exceeds consider using line charts.\
+\
+**Color** - HID Brand Colors\
+\
+**Axes units** (X-axis vs Y axis) - Varies based on use case\
+\
+**Axes label** (X-axis vs Y axis) - Varies based on use case\
+\
+**Area Chart Label** - Varies based on use case\
+\
+**Atoms** (Example - Tabs/Dropdown/Button/Info icons/Expand icon) -- Varies based on use case Expand Icon Export/Download Icon (3 vertical dots)\
+\
+**Hover on nodes** - Present a tooltip with a meaning full label, total count and the respective breakdown of the groups and highlight the respective node.
+
+
+
+# **A﻿ccessibility**
