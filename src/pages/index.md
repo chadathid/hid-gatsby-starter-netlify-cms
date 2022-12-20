@@ -3,7 +3,7 @@ templateKey: index-page
 title: HID Design System
 subheading: User Experience and Interface Consistency for HID Software Products
 image: /img/gettyimages-1179185269b2.jpg
-heading: H1 Page Heading
+heading: Design Systems assure consistency and efficiency
 content:
   blurbs:
     - title: H2 Sub Heading Goes Here
@@ -31,4 +31,4 @@ content:
         Id porta nibh venenatis cras. Ut porttitor leo a diam sollicitudin
         tempor. Viverra suspendisse potenti nullam.
 ---
-Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Quis vel eros donec ac odio tempor. Sed vulputate mi sit amet mauris commodo quis. Duis at tellus at urna condimentum mattis. Purus in mollis nunc sed id semper risus in. Est ante in nibh mauris cursus mattis molestie a iaculis. Curabitur vitae nunc sed velit dignissim sodales ut eu. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Nulla pellentesque.
+T﻿hink of our Design System as visual language through which cross-functional teams across HID Global can empower our users with clear and consistent User Interface and Patterns. All of the UI components, widgets and our responsive grid system not only provide users with intuitive and consistent interactions across BAs, products, and user roles--this system provides Engineers/Developers and Scrum Teams an efficient way to build software with less churn (back and forth with designers and other teams).
