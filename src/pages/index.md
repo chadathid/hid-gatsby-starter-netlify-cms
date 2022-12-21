@@ -16,7 +16,7 @@ content:
         are represented on this site, but they use our Figma design files to
         access and utilize the actual components. Specifics on this can be found
         on the "Getting Started" page of this website.
-    - title: "Design System and Pattern Library: For Developers/Engineers"
+    - title: "Pattern Library and CSS: For Engineers"
       text: >
         Most scrum teams across HID and the various BAs (Business Areas) work
         hand in hand with a Product Designer, but that's not always the case.
@@ -31,8 +31,7 @@ content:
         also offer a CSS library that will at least enable them to style their
         UI with the same intuitive and clean manner as other HID software.
         Again, refer to the Getting Started page for details.
-    - title: "Design System: For Product Managers, QA, Product Marketing and everyone
-        else"
+    - title: "Design System: For everyone else"
       text: >
         Because designers will largely use our Figma files to acquire all of our
         UI components, and engineers will either leverage React libraries or
