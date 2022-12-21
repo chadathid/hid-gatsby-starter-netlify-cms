@@ -6,7 +6,7 @@ image: /img/homepage-hero-1179185269b4.jpg
 heading: Design Systems assure consistency and efficiency
 content:
   blurbs:
-    - title: "Design System: For Designers"
+    - title: "Design System: For Product Designers"
       text: When a Product Designer (UX and UI Design) they now have a substantial and
         ever-growing library of things like buttons, input fields, tables,
         typefaces, and colors to utilize when creating hi-fidelity mockups. This
@@ -16,7 +16,7 @@ content:
         are represented on this site, but they use our Figma design files to
         access and utilize the actual components. Specifics on this can be found
         on the "Getting Started" page of this website.
-    - title: "Pattern Library and CSS: For Engineers"
+    - title: "Pattern Library and CSS Library: For Engineers"
       text: >
         Most scrum teams across HID and the various BAs (Business Areas) work
         hand in hand with a Product Designer, but that's not always the case.
@@ -31,7 +31,7 @@ content:
         also offer a CSS library that will at least enable them to style their
         UI with the same intuitive and clean manner as other HID software.
         Again, refer to the Getting Started page for details.
-    - title: "Design System: For everyone else"
+    - title: "Design System: For QA, PMs, and everyone else"
       text: >
         Because designers will largely use our Figma files to acquire all of our
         UI components, and engineers will either leverage React libraries or
