@@ -2,7 +2,7 @@
 templateKey: index-page
 title: HID Design System
 subheading: User Experience and Interface Consistency for HID Software Products
-image: /img/gettyimages-1179185269b2.jpg
+image: /img/homepage-hero-1179185269b4.jpg
 heading: Design Systems assure consistency and efficiency
 content:
   blurbs:
