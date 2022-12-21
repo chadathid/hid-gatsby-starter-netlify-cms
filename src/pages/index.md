@@ -6,23 +6,29 @@ image: /img/gettyimages-1179185269b2.jpg
 heading: Design Systems assure consistency and efficiency
 content:
   blurbs:
-    - title: H2 Sub Heading Goes Here
+    - title: "Design System: For Designers"
+      text: When a Product Designer (UX and UI Design) they now have a substantial and
+        ever-growing library of things like buttons, input fields, tables,
+        typefaces, and colors to utilize when creating hi-fidelity mockups. The
+        list and basic snapshots of those design elements are represented on
+        this site, but they use our Figma files to utilize the actual
+        components. Specifics on this can be found on the "Getting Started" page
+        of this website.
+    - title: "Design System and Pattern Library: For Developers/Engineers"
       text: >
-        Sed sed risus pretium quam vulputate dignissim suspendisse in.
-        Ullamcorper eget nulla facilisi etiam dignissim diam. Turpis egestas sed
-        tempus urna et pharetra. Massa id neque aliquam vestibulum morbi blandit
-        cursus risus. Consequat mauris nunc congue nisi vitae suscipit tellus
-        mauris. Dui nunc mattis enim ut. Mauris ultrices.
-    - title: H2 Sub Heading Goes Here
-      text: >
-        Auctor elit sed vulputate mi sit. Molestie ac feugiat sed lectus
-        vestibulum mattis ullamcorper velit sed. Posuere sollicitudin aliquam
-        ultrices sagittis orci a. Massa tincidunt dui ut ornare lectus sit.
-        Nullam eget felis eget nunc lobortis mattis aliquam. Id eu nisl nunc mi
-        ipsum. Malesuada fames ac turpis egestas maecenas pharetra convallis
-        posuere morbi. Est lorem ipsum dolor sit amet consectetur adipiscing
-        elit. Enim diam vulputate ut pharetra. Morbi tristique senectus et netus
-        et malesuada fames ac turpis. 
+        Most scrum teams across HID and the various BAs (Business Areas) work
+        hand in hand with a Product Designer, but that's not always the case.
+        Anyone building applications, with or without the benefit of a designer,
+        can use this site to review and understand our company's UI styles.
+        There are currently two methods for them to actually enable our styles
+        in their code (more detail on the Getting Started page of this site).
+        For teams using React, we have partnered with our talented colleagues in
+        Chennai, India to build the RPL (React Pattern Library). Our goal is to
+        provide the building blocks for developers to build applications without
+        "reinventing the wheel" every time. For teams that don't use React, we
+        also offer a CSS library that will at least enable them to style their
+        UI with the same intuitive and clean manner as other HID software.
+        Again, refer to the Getting Started page for details.
     - title: H2 Sub Heading Goes Here
       text: >
         Ac tortor vitae purus faucibus ornare suspendisse sed. Et netus et
