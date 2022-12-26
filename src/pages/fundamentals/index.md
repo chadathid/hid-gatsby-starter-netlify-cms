@@ -3,21 +3,12 @@ templateKey: fundamentals-page
 title: Fundamentals
 path: /fundamentals
 ---
-
-
-
-
-
-
-
-
-
+\
+Foundations are **the visual elements needed to create engaging end-to-end user experiences**. This includes guidance on Colors, Typography and Iconography.
 
 # **C﻿olors**
 
 The HID Design System uses a set of colors from the color system to achieve consistency and convey hierarchy in often UI applications. The color system serves as a foundation to achieve balance and harmony throughout our applications.
-
-
 
 **B﻿rand Colors**
 
@@ -50,23 +41,17 @@ Always use text and/or icons to help clarify the context for color blind users a
 **Blue** - Info status is used to communicate a process in progress or current status or update\
 **Grey** - None status is used to notify users regarding a basic, general status where no further action required.
 
-
-
 # **Typography**
 
 \
 Typography is extremely important to help create clear informational hierarchies, organise content, and guide users through a product or experience.\
 Typography helps to create clear visual hierarchy in designs. The typeface supported in HID Design System is Roboto.
 
-
-
 ![](/img/body.png)
 
 ![](/img/heading.png)
 
 ![](/img/supporting.png)
-
-
 
 **T﻿ypography Case - When to use**
 
@@ -78,17 +63,11 @@ Typography helps to create clear visual hierarchy in designs. The typeface suppo
 
 **lower case, pascal case, toGGLe caSe** -   Text editor - User specific
 
-
-
 # **Iconography**
 
 Icons are visual symbols used to represent ideas, objects or actions. They communicate messages at a glance, afford interactivity, and draw attention to important information.
 
-
-
 ![](/img/frame-16.png)
-
-
 
 **Usage and Guidlines**
 
@@ -120,8 +99,6 @@ Build consistency across the Icon family by staying consistent with the paramete
 18px and 24px icons are optimised to feel balanced when paired with 14pt and 16pt font size.\
 Use 48px and 64px for headlines and/or specially handled cases called out in the HID Design System.
 
-
-
 **Grid**\
 The icon grid provides a structured base for the icon and act as a canvas to draw from. Working with grids makes it easier to align objects to the pixel grid and stay consistent in placement and spacing, this makes icon look more balanced and visually more appealing.
 
@@ -143,14 +120,10 @@ It’s also important to note that icons themselves do not have interaction stat
 
 ![](/img/frame-19.png)
 
-
-
 **Alignment**\
 When used next to text, icons should always be centre aligned.
 
 ![](/img/frame-20.png)
-
-
 
 **N﻿ote to Designers**
 
@@ -158,8 +131,6 @@ When used next to text, icons should always be centre aligned.
 
 * Select the SVG icons you need from the Icon Set Page. Add the icons by downloading or dragging and dropping them into your figma file.
 * Since its an SVG file this allows you to edit the icon's vector color and size according to your use case.
-
-
 
 **Creating a new Icon**
 
@@ -174,8 +145,6 @@ When used next to text, icons should always be centre aligned.
 * Centred or rotated elements should use a 45-degree angle.
 * Keep a limited perspective — all icons should appear from the same perspective.
 * Keep the icons monochromatic.
-
-
 
 **Exporting Icons**
 
