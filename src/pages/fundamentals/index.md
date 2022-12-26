@@ -100,9 +100,7 @@ Build consistency across the Icon family by staying consistent with the paramete
 Use 48px and 64px for headlines and/or specially handled cases called out in the HID Design System.
 
 **Grid**\
-The icon grid provides a structured base for the icon and act as a canvas to draw from. Working with grids makes it easier to align objects to the pixel grid and stay consistent in placement and spacing, this makes icon look more balanced and visually more appealing.
-
-**24 pixel grid**\
+The icon grid provides a structured base for the icon and act as a canvas to draw from. Working with grids makes it easier to align objects to the pixel grid and stay consistent in placement and spacing, this makes icon look more balanced and visually more appealing.\
 The 24px icon size is the default, and most icons are created at this size. Icons that use a 24×24 pixel base grid have a 20px live area surrounded on all sides by 2px for padding and optical sizing.
 
 ![](/img/frame-17.png)
