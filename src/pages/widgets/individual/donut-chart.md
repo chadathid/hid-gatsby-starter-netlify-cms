@@ -25,9 +25,7 @@ They enable compact and simple representation as compared to pie charts. Further
 
 ![](/img/donut-chart.png)
 
-
-
-# **Behavior**
+**Utility**
 
 \
 **Legend** - Present the top 5 groups and rest if any will be presented and group as “Other” .\
@@ -47,3 +45,5 @@ They enable compact and simple representation as compared to pie charts. Further
 **Selection State** - When a user clicks on an arc, a detailed view of the respective metric opens up in a table format.
 
 # **Accessibility**
+
+"Coming soon"
