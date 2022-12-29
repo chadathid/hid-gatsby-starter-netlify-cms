@@ -17,12 +17,10 @@ The default icon size is 24px. The icon is mostly used to accompany some sort of
 * Small and Medium size avatars are used in Card headers main page titles, like a user's account settings.
 * The large and extra large size avatar is recommended for use in account detail view pages with Edit function.
 
-
-
 ![](/img/avatar.png)
 
 ![](/img/avatar-photo-upload.png)
 
-
-
 # **A﻿ccessibility**
+
+"Coming soon"
