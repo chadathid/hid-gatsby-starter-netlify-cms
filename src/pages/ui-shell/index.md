@@ -3,24 +3,6 @@ templateKey: ui-shell-page
 path: /ui-shell
 title: UI Shell Page
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-![](/img/grid-mobile-and-tablet.png)
-
-
-
-![](/img/grid-full-layout.png)
-
 # **Grid**
 
 A grid system is a series of evenly spaced containers, rows and columns that help organize and structure designs in a way that is optimized for the visual flow of information.
@@ -40,6 +22,8 @@ The grid system follows 12 column across the page for web and 4 column across Mo
 
 Following this methodology will keep layouts uniform and prevent unreliable responsive behaviour.
 
+![](/img/grid-full-layout.png)
+
 ## **Variants**
 
 A grid can function in three different ways across different Screen sizes.
@@ -57,8 +41,6 @@ A grid can function in three different ways across different Screen sizes.
 ![](/img/grid-expanded-nav.png)
 
 
-
-![](/img/grid-full-layout.png)
 
 
 
