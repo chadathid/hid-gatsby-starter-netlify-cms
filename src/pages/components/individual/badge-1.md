@@ -26,3 +26,5 @@ Do not add multiple badges to a single icon. This makes it complicated for the u
 ![](/img/frame-4.png)
 
 # **A﻿ccessibility**
+
+"Coming soon"
