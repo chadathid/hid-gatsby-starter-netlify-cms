@@ -23,8 +23,6 @@ Labels can be positioned to the left or right of a toggle, depending on layout c
 
 ![](/img/toogle.png)
 
-
-
-
-
 # **A﻿ccessibility**
+
+"Coming soon"
