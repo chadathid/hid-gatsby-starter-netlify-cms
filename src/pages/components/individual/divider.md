@@ -5,7 +5,7 @@ description: A  divider signifies a break in your content or a thematic change
   in content or a component.
 featuredimage: /img/divider.png
 ---
-## **Guidelines**
+# **Guidelines**
 
 * Content dividers are used to separate content within a card, table, or any white content area.
 * Canvas dividers are used on the canvas (not cards) to separate large blocks of content.
@@ -13,7 +13,7 @@ featuredimage: /img/divider.png
 
 ![](/img/divider.png)
 
-## **Variants**
+# **Variants**
 
 **Content Divider** - Divider to seperate text blocks
 
@@ -23,6 +23,10 @@ featuredimage: /img/divider.png
 \
 **Alert Divider** - Divider for alert content
 
-## **Accessibility**
+
+
+
+
+# **Accessibility**
 
 "Coming soon"
