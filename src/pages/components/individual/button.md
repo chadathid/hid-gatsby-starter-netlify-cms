@@ -8,7 +8,7 @@ featuredimage: /img/hid-button.svg
 ---
 ![](/img/buttons.png)
 
-## **Guidelines**
+# **Guidelines**
 
 Buttons are used primarily on action items.
 
@@ -30,11 +30,11 @@ Use a button when you are performing an action, such as: “submit,” “merge,
 **Do not use**\
 Never use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page.
 
-## **Behaviour**
+# **Behavior**
 
 ![](/img/button-2.png)
 
-**Variant**                      
+# **Variant**                      
 
 **Primary** - Principal call-to-action within a page.\
 **Secondary** - Secondary calls-to-action within a page.\
@@ -44,8 +44,6 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 **With icon** - Icons can be used to augment communication of what button does.\
 **Disabled** - Signals that the user cannot proceed until input data is collected.
 
-## **Accessibility**
+# **Accessibility**
 
-Finally, color alone does not suffice when conveying the meaning of buttons.\
-\
-Ensure that the text used matches the meaning you are trying to convey through color. (For example, if you use the destructive button to point out a potential warning, make sure the text communicates the same message.)
+"Coming soon"
