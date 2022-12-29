@@ -21,6 +21,6 @@ featuredimage: /img/pagination.png
 
 ![](/img/pagination.png)
 
-
-
 # **Accessibility**
+
+"Coming soon"
