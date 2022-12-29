@@ -35,6 +35,6 @@ Selectable tiles work like a radio button, where the entire tile is a click targ
 **Expandable**\
 Expandable tiles are helpful for hiding/showing larger amounts of content to a user. They can only be stacked in a single column, and cannot live in a row or horizontal grid. When expanded, tiles push content down the page. Expandable tiles may contain internal CTAs (like links to docs) if the internal CTA is given its own click target.
 
-
-
 # **Accessibility**
+
+"Coming soon"
