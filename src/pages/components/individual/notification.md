@@ -6,7 +6,7 @@ description: Notifications are messages that communicate information to the
   further information about the information in the notification.
 featuredimage: /img/hid-notification.svg
 ---
-## **Guidelines**
+# **Guidelines**
 
 * Use notifications to inform users of important status changes and updates
 * Limit action labels to two words or less.
@@ -24,7 +24,9 @@ featuredimage: /img/hid-notification.svg
 
 ![](/img/notification.png)
 
-**Variants**
+
+
+# **Variants**
 
 Notification status helps convey the information being communicated. These statuses correspond with a color and icon to provide a consistent, universal experience for users.\
 \
@@ -36,15 +38,6 @@ Notification status helps convey the information being communicated. These statu
 
 **Success** - When an action the user activated is successful.
 
-## **Accessibility**
+# **Accessibility**
 
-Notifications should contain role="dialog"to signal to assistive technology that they require the user’s immediate attention. You can also use role=alert but this is usually reserved for things that are important or time-sensitive like:\
-\
-An invalid value was entered into a form field\
-The user’s login session is about to expire\
-The connection to the server was lost, local changes will not be saved\
-Do NOT use an alert role on all notifications.\
-\
-Success and info notifications can use aria-live="polite" which is a less aggressive method. As always, really analyse the urgency of the message to set the aria accessibility role.
-
-![](blob:https://relaxed-davinci-16bcea.netlify.app/750b0ada-6f97-493e-a671-2277ecc657c6)
+"Coming soon"
