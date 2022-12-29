@@ -32,25 +32,15 @@ A grid can function in three different ways across different Screen sizes.
 * Layout with Expanded Nav
 * Layout with Compact Nav
 
-
-
 ![](/img/grid-compact-nav.png)
 
-
-
 ![](/img/grid-expanded-nav.png)
-
-
-
-
 
 ![](/img/grid-mobile-and-tablet.png)
 
 # **Header**
 
 The global header is the anchor of any HID service, or platform, and spans all other parts of the UI.The functionality in the header is applicable across all contexts in the HID ecosystem and consists mainly of a logo element, title of the service (which acts as a wayfaring cures for platforms with multiple services) and action bar (icons) which groups platform wide tasks that need to persist throughout the experience (i.e - account, app launcher and platform settings)
-
-
 
 ## **General Guidance**
 
@@ -62,25 +52,15 @@ A header helps users identify where they are and provides a quick, organised way
 * Icons are not a required element of the header and a product may choose to use any set of icons for their UI. Icons should always be aligned to the right of the header with no gaps between icons.
 * Search, if used in the global header, should always be positioned as the furthest left icon to allow for a expanding search field.
 
-
-
 ![](/img/header.png)
 
 ## **V﻿ariants**
 
-
-
 ![](/img/header-base-nav.png)
 
-
-
 ![](/img/header-sub-nav.png)
 
-
-
 ![](/img/header-sub-nav.png)
-
-
 
 ![](/img/header-states.png)
 
@@ -107,30 +87,18 @@ The left side drawer navigation contains secondary navigation and is positioned 
 **Expanded** - Navigation style with icons and their corresponding text giving greater clarity to the purpose of the menu items.\
 **Collapsed** - Navigation style where only icons are visible making the greatest use of space for content.
 
-
-
 ![](/img/side-nav-collapsed-and-expanded.png)
-
-
 
 ![](/img/o-icons.png)
 
-
-
 ![](/img/side-nav-with-links.png)
 
-
-
 ![](/img/side-nav-with-tooltip.png)
-
-
 
 # **Footer**
 
 A footer serves site visitors who arrive at the bottom of a page without finding what they want.
 Sometimes used for additional navigation items which are significantly less important global items but yet need to be there (i.e. terms of service or privacy policies).
-
-
 
 ## **General Guidance**
 
@@ -148,12 +116,8 @@ Less frequently used because it depends on platform and audience
 * Navigation
 * Mission Vision
 
-
-
 ![](/img/footer-base.png)
 
 ## **Variants**
-
-
 
 ![](/img/footer-variant.png)
