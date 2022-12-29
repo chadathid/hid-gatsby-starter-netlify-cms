@@ -21,8 +21,8 @@ For example, Right clicking on a highlighted text in Microsoft Word reveals a co
 * To avoid choice overload limit the number of items within a contextual menu to 10-12 commands.
 * Don’t hide irrelevant actions, disable them so that users won’t have to try to find where menu items disappeared.
 
-
-
 ![](/img/contextual-menu-.png)
 
 # **A﻿ccessibility**
+
+"Coming soon"
