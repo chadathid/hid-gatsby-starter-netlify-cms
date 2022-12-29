@@ -8,7 +8,7 @@ description: Tags are used for web content that needs to be labeled,
   categories
 featuredimage: /img/tags.png
 ---
-## **Guidelines**
+# **Guidelines**
 
 * Multiple or single tags can be used to categorize items.
 * Use short labels for easy scanning. Use two words only if necessary to describe the status and differentiate it from other tags.
@@ -21,10 +21,10 @@ Tag text should be set in sentence case, and should only have one word. However,
 **Structure**\
 All tags have the same height. However, the width of tags varies based on the amount of content. All four corners of a tag are rounded with a 24px radius.
 
-## **Behaviour**
+# **Behavior**
 
 ![](/img/tags.png)
 
-## **Accessibility**
+# **Accessibility**
 
 "Coming soon"
