@@ -4,7 +4,7 @@ title: Checkbox
 description: Checkboxes allow users to select one or multiple options from a category.
 featuredimage: /img/frame-10.png
 ---
-## **Guidelines**
+# **Guidelines**
 
 Checkboxes are a fundamental input component typically represented by an empty box in the unselected state and a box with a check mark (hence the checkbox name) when selected.
 
@@ -19,12 +19,12 @@ The default view of a set of checkboxes is having no option selected.\
 **Labels**\
 Always use clear and concise labels for checkboxes. Be explicit about the results that will follow if the checkbox is selected. Labels should appear to the right of checkboxes.
 
-## **Behaviour**
+# **Behavior**
 
 ![](/img/frame-11.png)
 
 ![](/img/frame-12.png)
 
-## **Accessibility**
+# **Accessibility**
 
 "Coming soon"
