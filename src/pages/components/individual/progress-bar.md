@@ -28,6 +28,6 @@ Do not use Progress bar for complex task with steps involved, such as onboarding
 
 ![](/img/progress-bar.png)
 
-
-
 # **A﻿ccessibility**
+
+"Coming soon"
