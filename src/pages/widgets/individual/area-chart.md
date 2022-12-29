@@ -29,8 +29,6 @@ featuredimage: /img/area-chart.png
 Avoid using area charts when there are more than 3-4 categories. In that case use line charts.\
 D﻿o not use Area chart if there are negative values.
 
-
-
 ![](/img/area-chart-1.png)
 
 **Utility**\
@@ -49,6 +47,6 @@ D﻿o not use Area chart if there are negative values.
 \
 **Hover on nodes** - Present a tooltip with a meaning full label, total count and the respective breakdown of the groups and highlight the respective node.
 
-
-
 # **A﻿ccessibility**
+
+"Coming soon"
