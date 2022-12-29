@@ -7,7 +7,7 @@ description: >+
 
 featuredimage: /img/default.png
 ---
-## **G﻿uidelines**
+# **G﻿uidelines**
 
 * Where possible, add programmatic assistance. Detect and pre-fill inputs to reduce errors and save time. For example Placeholder text provides hints or examples of what to enter.
 * When the software can’t determine the value that belongs in an input, use type-ahead to make suggestions.
@@ -23,7 +23,7 @@ The text area and text input components have different use cases. Consider the l
 
 ![](/img/default.png)
 
-## **V﻿ariants**
+# **V﻿ariants**
 
 ![](/img/helper-text.png)
 
@@ -31,8 +31,6 @@ The text area and text input components have different use cases. Consider the l
 
 ![](/img/text-area.png)
 
-## **A﻿ccessiblity**
+# **A﻿ccessiblity**
 
-Labels must be visible when an input gets focus.\
-Labels must be announced to the screen reader on focus.\
-Ensure the helper text that appears under an input is read when an assistive technology user stops at an input using ARIA.
+"Coming soon"
