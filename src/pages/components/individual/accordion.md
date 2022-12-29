@@ -26,6 +26,6 @@ An accordion is used to show and hide content.Make the entire title label area c
 
 ![](/img/states-accordian.png)
 
-
-
 # **A﻿ccessibility**
+
+"Coming soon"
