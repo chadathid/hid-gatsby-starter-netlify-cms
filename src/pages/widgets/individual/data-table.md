@@ -14,8 +14,6 @@ Tables are used to organize data that is too detailed or complicated to be desc
 
 ![](/img/data-table.png)
 
-
-
 **Tables with Selections**\
 When Tables have items selected, the header of the Table changes: The Table Title area is replaced and highlighted blue, to show the actions that can be performed, for the items selected.
 
@@ -37,6 +35,6 @@ Tables can have rows that collapse or expand data. The functionality behaves sim
 Tables can have either a simple display option, or a more robust pagination system that gives the user control of how much content they want to view.\
 There is also a pagination system for tables with pages upon pages of data. Applying pagination would allow the user to tab through finding data.
 
-
-
 # **Accessibility**
+
+"Coming soon"
