@@ -22,6 +22,6 @@ The Inline Text editor is used exclusively in features that allow for users to e
 
 ![](/img/inline-editoe.png)
 
-
-
 # **Accessibility**
+
+"Coming soon"
