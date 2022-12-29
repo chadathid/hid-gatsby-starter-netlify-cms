@@ -9,7 +9,7 @@ description: >-
   Grid gives meaning to design and helps us achieve uniformity, readability and visual consistency.
 featuredimage: /img/grid-compact-nav.png
 ---
-## **G﻿uidelines**
+# **G﻿uidelines**
 
 Grid is made of Three important elements - Columns, Gutter and Margin
 
@@ -21,21 +21,15 @@ The grid system follows 12 column across the page for web and 4 column across Mo
 \
 **Margins** -Margins are the space between content and the edges of the screen.The Margin width for Web is 24 px, 24 px for Mobile and 69 px for Tablet. The margins change as per different screen sizes.
 
-
-
 Following this methodology will keep layouts uniform and prevent unreliable responsive behaviour.
 
-
-
-## **Variants**
+# **Variants**
 
 A grid can function in three different ways across different Screen sizes.
 
 * Full Width Layout
 * Layout with Expanded Nav
 * Layout with Compact Nav
-
-
 
 ![](/img/grid-compact-nav.png)
 
@@ -45,7 +39,6 @@ A grid can function in three different ways across different Screen sizes.
 
 ![](/img/grid-mobile-and-tablet.png)
 
-## **A﻿ccessibility**
+# **A﻿ccessibility**
 
-This component has been validated to meet the WCAG 2.1 AA accessibility guidelines.\
-Grid is a custom element hence it does not have semantic meaning or any added functionality for assistive technologies.
+"Coming soon"
