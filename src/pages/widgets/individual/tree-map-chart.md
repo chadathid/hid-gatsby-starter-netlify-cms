@@ -27,8 +27,6 @@ Treemaps are one of the most compact and space-efficient options for displaying 
 
 ![](/img/treemap.png)
 
-
-
 **Utility**\
 \
 **Legend** - Display maximum of 3 legends and if it exceeds consider using a treemap with the header variation.\
@@ -43,6 +41,6 @@ Treemaps are one of the most compact and space-efficient options for displaying 
 \
 **Responsiveness** - The treemap chart is fully responsive. When the size of the screen gets smaller, the labels start to truncate and hide if there is not enough space.
 
-
-
 # **Accessibility**
+
+"Coming soon"
