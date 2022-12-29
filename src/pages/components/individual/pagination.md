@@ -7,4 +7,20 @@ description: "Pagination Is a UI Component that allows designers and developers
   amounts of content without being overwhelmed. "
 featuredimage: /img/pagination.png
 ---
-C﻿ontent **"Coming soon"**
+# **Guidelines**
+
+**When to use**
+
+* For tables with large ordered data sets.
+* When it is unsuitable to display all data on a single page.
+* Use pagination to allow navigation to different pages of a large dataset.
+
+**Do not use**
+
+* Don’t use a pagination when all data is shown on a single page.
+
+![](/img/pagination.png)
+
+
+
+# **Accessibility**
