@@ -23,3 +23,5 @@ There are two major components of the file uploader.\
 ![](/img/file-uploader-default-white-theme.png)
 
 # **Accessibility**
+
+"Coming soon"
