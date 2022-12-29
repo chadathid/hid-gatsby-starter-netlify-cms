@@ -22,8 +22,16 @@ featuredimage: /img/search-widget.svg
 * To filter within a section or page always place the search directly above the section. To inform the user that Search is refining the particular section alone.
 * In case of a Global Search place it on the Top Right or in the Header.
 
-  ![]()
 
-  ![](/img/search-default.png)
 
-  # **A﻿ccessibility**
+![](/img/search-white-theme.png)
+
+
+
+# **Variants**
+
+![](/img/global-search.png)
+
+
+
+# **Accessibility**
