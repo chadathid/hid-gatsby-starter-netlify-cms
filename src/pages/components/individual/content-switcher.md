@@ -41,6 +41,6 @@ Do not use Content switcher to navigate between related sections of content, use
 \
 **Focus** - The focus state is when the user uses the tab key to navigate the content switcher.
 
-
-
 # **A﻿ccessibility**
+
+"Coming soon"
