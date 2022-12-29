@@ -11,7 +11,7 @@ featuredimage: /img/tooltip.png
 ---
 ![](/img/tooltip.png)
 
-## **Guidelines**
+# **Guidelines**
 
 * Use Tooltip to further clarify a label or element.
 * To help explain why the system needs to collect their data.
@@ -26,7 +26,6 @@ featuredimage: /img/tooltip.png
 * Tooltips should only appear when user hovers over the element and should not immediatly disappear unless the user hovers over another element.
 * When the tooltip appears on the page, make sure the focus is on the tooltip, this helps users of assistive technology read the content.
 
-## **Accessibility**
+# **Accessibility**
 
-* Use as `title` attribute. Tooltips are progressive enhancements for the `title` attribute, and will display as the `title` attribute if the component doesn’t initialize.
-* Keyboard accessibility. Tooltips make `title` attributes keyboard accessible.
+"Coming soon"
