@@ -26,3 +26,5 @@ Always use clear and concise labels for checkboxes. Be explicit about the result
 ![](/img/frame-12.png)
 
 ## **Accessibility**
+
+"Coming soon"
