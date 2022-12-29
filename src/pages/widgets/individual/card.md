@@ -6,22 +6,35 @@ description: Cards are a highly flexible component for displaying a wide variety
   more
 featuredimage: /img/card.svg
 ---
-Galaxy ships a basic card structure that responds to the grid. Cards have no pre-set styles for the content within them. This allows designer and developers to customize cards as it fits into the specific use case.
+# **Guidelines**
 
-When using a call-to-action (CTA) within a tile, use a secondary button. *Primary buttons are reserved for the most important action a user can take on the page.*
+In it most basic form, Cards are used to apply a container around a related group of information. They can be clickable, expandable, selectable and used as the building block in grid layouts.
 
-**Embed a story with the toolbar**
+**When to use**
 
-<iframe
-  src="https://5ccbc373887ca40020446347-bysekhynzd.chromatic.com/?path=/story/shadowboxcta--default&full=1&shortcuts=false&singleStory=true"
-  width="100%"
-  height="300"
-></iframe>
+* Use cards to present a summary and link to additional details and information.
+* To group information into logical chunks.
+* When the card surface itself is an interactive element.
+* To create flexible layouts.
+* To display information of one topic.
+* To create a dashboard or show a variety of content types at the same time.
 
-**Embed a story without the toolbar**
+![](/img/card.png)
 
- <iframe
-  src="https://5ccbc373887ca40020446347-bysekhynzd.chromatic.com/iframe.html?id=shadowboxcta--default&viewMode=story&shortcuts=false&singleStory=true"
-  width="100%"
-  height="200"
-></iframe>
+# Variants
+
+**Read-only**\
+Read-only tiles are used to display information to the user, such as features or services offered. Read-only tiles are often seen on marketing pages to promote content. 
+
+**Clickable**\
+Clickable tiles can be used as navigational items, where the entire tile is a clickable state, which redirects the user to a new page. Clickable tiles cannot contain separate internal CTAs.
+
+**Selectable**\
+Selectable tiles work like a radio button, where the entire tile is a click target. Selectable tiles may contain internal CTAs (like links to docs) if the internal CTA is given its own click target. Selectable tiles work well for presenting options to a user in a structured manner, such as a set of pricing plans.
+
+**Expandable**\
+Expandable tiles are helpful for hiding/showing larger amounts of content to a user. They can only be stacked in a single column, and cannot live in a row or horizontal grid. When expanded, tiles push content down the page. Expandable tiles may contain internal CTAs (like links to docs) if the internal CTA is given its own click target.
+
+
+
+# **Accessibility**
