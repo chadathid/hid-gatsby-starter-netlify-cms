@@ -28,3 +28,5 @@ When the user has completed the whole process of the task, the stepper will end 
 ![](/img/stepper.png)
 
 # **A﻿ccessibility**
+
+"Coming soon"
