@@ -15,8 +15,6 @@ featuredimage: /img/tags.png
 * Use tags when content is mapped to multiple categories, and the user needs a way to differentiate between them.
 * Tags can also be used as a method of filtering data, to show only items within that particular category.
 
-
-
 **Type Style**\
 Tag text should be set in sentence case, and should only have one word. However, if more than one is necessary, then connect the words using a hyphen with no spaces.\
 \
@@ -27,13 +25,6 @@ All tags have the same height. However, the width of tags varies based on the am
 
 ![](/img/tags.png)
 
-
-
 ## **Accessibility**
 
-* Be sure the tag text is clear and concise.
-* Color should not be used as the only means to differentiate tag categories.
-* When using custom colors be sure the minimum contrast requirements are met.
-* Helpful resources for creating customized accessible implementations
-* 1.4.1 Use of Color (WCAG Success Criteria 1.4.1)
-* 1.4.3 Contrast (Minimum) (WCAG Success Criteria 1.4.3)
+"Coming soon"
