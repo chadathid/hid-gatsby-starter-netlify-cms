@@ -7,7 +7,7 @@ description: |-
   as a way to navigate web or to move within a site.
 featuredimage: /img/link-.png
 ---
-## **Guidelines**
+# **Guidelines**
 
 Links are used primarily as a navigational element. Links may also change what or how data is displayed (i.e., view more, show all).
 
@@ -17,7 +17,7 @@ Link text should always be meaningful, descriptive without relying on other text
 \
 Links are for navigation and buttons are for taking actions they are to be used in different context.
 
-## **Behaviour**
+# **Behavior**
 
 A link state is essentially how a link looks at different points of interaction.\
 There are 6 states a link can have\
@@ -36,4 +36,6 @@ clicked\
 
 ![](/img/link-states.png)
 
-## **Accessibility**
+# **Accessibility**
+
+"Coming soon"
