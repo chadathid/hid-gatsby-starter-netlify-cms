@@ -6,13 +6,13 @@ description: >-
   A modal disables page content and focuses the user’s attention on a single task or message. Modals are effective in breaking user flow by design. They are most effective when a task must be completed before a user can continue. 
 featuredimage: /img/modal-widget.svg
 ---
-## **General Guidance**
+# **Guidelines**
 
 **W﻿hen to use**
 
-*  Use when you want to interrupt a user’s current task to catch the user’s full attention to something more important.
+* Use when you want to interrupt a user’s current task to catch the user’s full attention to something more important.
 * Use when you want to get information from the user. Ex. sign up or login form.
-*  Use when you want to show additional information without losing the context of the parent page. Ex. showing larger images or videos.
+* Use when you want to show additional information without losing the context of the parent page. Ex. showing larger images or videos.
 * Use when you want to show information that is not directly related to the parent page or other options that are “independent” from other pages. Ex. notifications.
 * When modal is open, use a light box effect (darken the background). This draws attention to the modal and indicates that the user cannot interact with the parent page.
 
@@ -30,8 +30,6 @@ featuredimage: /img/modal-widget.svg
 
 ![](/img/modal.png)
 
-## **A﻿ccessibility**
+# **A﻿ccessibility**
 
-Modal Dialogs are a tricky thing to make accessible. For visual users navigating with a mouse, creating a dialog is as simple as styling the element to look visually different from the rest of the page. However, users navigating a site via a keyboard and/or screenreader need a lot more.\
-\
-Be sure to add aria-labelledby="id...", referencing the modal title, to the Modal. Additionally, you may give a description of your modal with the aria-describedby="id..."prop on the Modal.
+"Coming soon"
