@@ -4,7 +4,7 @@ title: Fundamentals
 path: /fundamentals
 ---
 \
-Foundations are **the visual elements needed to create engaging end-to-end user experiences**. This includes guidance on Colors, Typography and Iconography.
+Foundations are the visual elements needed to create engaging end-to-end user experiences. This includes guidance on Colors, Typography and Iconography.
 
 # **C﻿olors**
 
