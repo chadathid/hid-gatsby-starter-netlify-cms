@@ -21,13 +21,9 @@ Inline Status indicate a state or condition at a particular time and fall into f
 
 **Compact Dot Badge without Label** - use it to indicate that something is new or something has changed without showing a count.
 
-
-
 **D﻿o not use**
 
 Inline Status is only used to provide advisory information to the user, do not use it for communicating high priority information.
-
-
 
 **These are some typical situations in which each color could be used:**
 
@@ -39,10 +35,8 @@ Inline Status is only used to provide advisory information to the user, do not u
 **Grey** - None status is used to notify users regarding a basic, general status where no furthur action required.\
 The lowest level of severity, is grey (neutral) and the highest level of severity, is red (Alert).
 
-
-
 ![](/img/frame-1.png)
 
-
-
 # **A﻿ccessibility**
+
+ "Coming soon"
