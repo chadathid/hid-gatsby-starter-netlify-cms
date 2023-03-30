@@ -51,7 +51,7 @@ T﻿he RPL library have been developed for various businesses, audiences, catego
 | HID Design Libraries | Links |
 | ----------- | ----------- |
 | React Storybook | [RPL library ](http://s3-galaxy-rpl-react-release.s3-website-us-east-1.amazonaws.com/?path=/story/welcome-welcome--welcome) |
-| CSS | [CSS library ](https://reactjs.org/docs/getting-started.html) |
+| CSS | [CSS library ](https://dr0slyoj7i399.cloudfront.net/index.html?path=/story/components-accordion--default) |
 
 
 
@@ -112,7 +112,7 @@ Dive into the platform-specific getting started links below.
 | HID Design Libraries | Links |
 | ----------- | ----------- |
 | React Storybook | [RPL library ](http://s3-galaxy-rpl-react-release.s3-website-us-east-1.amazonaws.com/?path=/story/welcome-welcome--welcome) |
-| CSS | [CSS library ](https://reactjs.org/docs/getting-started.html) |
+| CSS | [CSS library ](https://dr0slyoj7i399.cloudfront.net/index.html?path=/story/components-accordion--default) |
 
 
 
