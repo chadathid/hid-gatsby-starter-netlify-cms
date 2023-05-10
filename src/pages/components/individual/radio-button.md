@@ -7,17 +7,20 @@ featuredimage: /img/hid-radio-button.svg
 ---
 ![](/img/radio-button.png)
 
-# **G﻿uidelines**
+# **Guidelines**
 
 Radio buttons are used for individual, not multiple selections from a list of choices. Only one radio button can be selected at a time. When a new item is selected, the previous choice is automatically deselected.
 
-**When to use**\
-​​Radio buttons should be used instead of checkboxes if only one item can be selected from a list.\
-\
-**Form**\
-Can be used in forms on a full page, in modals, or on side panels.\
-\
-**Selection in List**\
+**When to use**
+
+​​Radio buttons should be used instead of checkboxes if only one item can be selected from a list.
+
+**Form**
+
+Can be used in forms on a full page, in modals, or on side panels.
+
+**Selection in List**
+
 Used to choose a single item within a data table or list.
 
 # **Behavior**
