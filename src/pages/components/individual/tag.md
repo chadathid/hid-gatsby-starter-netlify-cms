@@ -15,10 +15,12 @@ featuredimage: /img/tags.png
 * Use tags when content is mapped to multiple categories, and the user needs a way to differentiate between them.
 * Tags can also be used as a method of filtering data, to show only items within that particular category.
 
-**Type Style**\
-Tag text should be set in sentence case, and should only have one word. However, if more than one is necessary, then connect the words using a hyphen with no spaces.\
-\
-**Structure**\
+**Type Style**
+
+Tag text should be set in sentence case, and should only have one word. However, if more than one is necessary, then connect the words using a hyphen with no spaces.
+
+**Structure**
+
 All tags have the same height. However, the width of tags varies based on the amount of content. All four corners of a tag are rounded with a 24px radius.
 
 # **Behavior**
