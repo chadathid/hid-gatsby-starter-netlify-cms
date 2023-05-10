@@ -6,25 +6,25 @@ description: >-2
   They help to highlight or indicate status.
 featuredimage: /img/badge-with-numbers.png
 ---
-# **G﻿uidelines**
+# **Guidelines**
 
-* Badge is used in order to just attract the users attention to the specific control and encourage them to explore what is inside.
+* Badge is used to just attract the user's attention to the specific control and encourage them to explore what is inside.
 * Other uses may include communicating status and other types of non-critical notifications in an interface.
-* They are contextual. They are associated with a UI element or with a piece of content, and should be shown in close proximity to that element.
+* They are contextual. They are associated with a UI element or with a piece of content and should be shown in close proximity to that element.
 * The Badge should slightly overlap the parent icon and should be positioned towards the top and to the right.
 
-**W﻿hen to use**
+**When to use**
 
 **Badge with number** - use this for counts of important information, close to the relevant item.\
-**Dot only badge with Icons** - use this to gain users attention to the specific control and to encourage them to explore what is inside, without showing any count.
+**Dot-only badge with Icons** - use this to gain user's attention to the specific control and to encourage them to explore what is inside, without showing any count.
 
-**D﻿o not use**
+**Do not use**
 
-Badge is only used to provide advisory information to the user, do not use it for communicating high priority information, instead use notification.\
-Do not add multiple badges to a single icon. This makes it complicated for the user to recognise it’s intended meaning.
+Badge is only used to provide advisory information to the user, do not use it for communicating high-priority information, instead the use notification.\
+Do not add multiple badges to a single icon. This makes it complicated for the user to recognize it’s intended meaning.
 
 ![](/img/frame-4.png)
 
-# **A﻿ccessibility**
+# **Accessibility**
 
 "Coming soon"
