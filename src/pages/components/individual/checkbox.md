@@ -10,14 +10,17 @@ Checkboxes are a fundamental input component typically represented by an empty b
 
 ![](/img/frame-10.png)
 
-**Click target**\
+**Click target**
+
 Users should be able to select the checkbox by clicking on the box directly.\
 \
-**Default selection**\
+**Default selection**
+
 The default view of a set of checkboxes is having no option selected.\
 \
-**Labels**\
-Always use clear and concise labels for checkboxes. Be explicit about the results that will follow if the checkbox is selected. Labels should appear to the right of checkboxes.
+**Labels**
+
+Always use clear and concise labels for checkboxes. Be explicit about the results that will follow if the checkbox is selected. Labels should appear to the right of the checkboxes.
 
 # **Behavior**
 
