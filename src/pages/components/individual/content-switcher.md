@@ -23,11 +23,11 @@ Try to keep segment content size consistent.
 
 **W﻿hen to use**
 
-Use Content switcher to toggle between or Narrow down a content group. For example, switching between dark or Light Theme in a Page.\
+Use the Content switcher to toggle between or Narrow down a content group. For example, switching between dark or Light Themes in a Page.\
 \
-**D﻿o not use**
+**Do not use**
 
-Do not use Content switcher to navigate between related sections of content, use Tabs instead. Tabs divide and categorise large amounts of content on a page, displaying one section at a time.
+Do not use Content switcher to navigate between related sections of content, use Tabs instead. Tabs divide and categorize large amounts of content on a page, displaying one section at a time.
 
 ![](/img/content-switcher.png)
 
@@ -35,7 +35,7 @@ Do not use Content switcher to navigate between related sections of content, use
 
 **Enabled** - This is how the enabled state of the content switcher usually appears and the first content tab should always be the default selection.
 
-**Selected** - The selected state uses a high contrast colour when a user clicks a particular content tab.
+**Selected** - The selected state uses a high-contrast color when a user clicks a particular content tab.
 
 **Hover** - The hover state is when a user uses the mouse over the link and it changes state to let the user know that the link is clickable.\
 \
