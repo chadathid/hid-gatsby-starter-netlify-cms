@@ -7,9 +7,10 @@ description: >+
 
 featuredimage: /img/default.png
 ---
-# **G﻿uidelines**
+# **Guidelines**
 
-* Where possible, add programmatic assistance. Detect and pre-fill inputs to reduce errors and save time. For example Placeholder text provides hints or examples of what to enter.
+* Where possible, add programmatic assistance. Detect and pre-fill inputs to reduce errors and save time. 
+For example, Placeholder text provides hints or examples of what to enter.
 * When the software can’t determine the value that belongs in an input, use type-ahead to make suggestions.
 * Use sentence-case for default values, detected values, and auto-completion text.
 
@@ -19,7 +20,7 @@ The text area and text input components have different use cases. Consider the l
 
 **Text input** - For single-line, short entries, use the text input component. It’s commonly used for name, phone number, or email entries in forms. 
 
-**Text area** -If text exceeds more than one line, use the text area component. The larger field size encourages longer responses. It’s typically used for comments or questions in forms. 
+**Text area** - If the text exceeds more than one line, use the text area component. The larger field size encourages longer responses. It’s typically used for comments or questions in forms.  
 
 ![](/img/default.png)
 
