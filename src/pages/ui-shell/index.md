@@ -41,22 +41,23 @@ A grid can function in three different ways across different Screen sizes.
 
 # **Header**
 
-The global header is the anchor of any HID service, or platform, and spans all other parts of the UI. The functionality in the header is applicable across all contexts in the HID ecosystem and consists mainly of a logo element, 
-title of the service (which acts as a wayfaring cure for platforms with multiple services) and action bar (icons) which groups platform wide tasks that need to persist throughout the experience (i.e. - account, app launcher and platform settings)
+The global header is the anchor of any HID service, or platform, and spans all other parts of the UI. The functionality in the header is applicable across all contexts in the HID ecosystem and consists mainly of a logo element,
+the
+title of the service (which acts as a wayfaring cure for platforms with multiple services) and an action bar (icons) which groups platform-wide task that need to persist throughout the experience (i.e. - account, app launcher and platform settings)
 
 ## **General Guidance**
 
-A header helps users identify where they are and provides a quick, organised way to reach the main sections of a website. It provides a common set of interaction patterns that persist between and across products.
+A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website. It provides a common set of interaction patterns that persist between and across products.
 
 * Use short, clear link labels.
 * Present links in priority order.
-* Dropdowns are supported as global navigation, if required. Include the down-pointing chevron after the link label in Header.
+* Dropdowns are supported as global navigation if required. Include the down-pointing chevron after the link label in Header.
 * Icons are not a required element of the header and a product may choose to use any set of icons for their UI. Icons should always be aligned to the right of the header with no gaps between icons.
-* Search, if used in the global header, should always be positioned as the furthest left icon to allow for a expanding search field.
+* Search, if used in the global header, should always be positioned as the furthest left icon to allow for an expanding search field.
 
 ![](/img/header.png)
 
-## **V﻿ariants**
+## **Variants**
 
 ![](/img/header-base-nav.png)
 
@@ -68,16 +69,16 @@ A header helps users identify where they are and provides a quick, organised way
 
 # **Side Navigation**
 
-Side Drawer Navigation provides users access to destinations in an interface. Side sheets are interface surfaces containing additional content that are attached to the left edge of the screen. 
+Side Drawer Navigation provides users access to destinations in an interface. Side sheets are interface surfaces containing additional content that is attached to the left edge of the screen.
 
-## **G﻿uidelines**
+## **Guidelines**
 
-Side drawer navigations provide users quick access to important sections of the interface . They can either be permanently on-screen or controlled by a navigation menu icon. The shell of this system is made up of the header and a left panel.
+Side drawer navigations provide users with quick access to important sections of the interface. They can either be permanently on-screen or controlled by a navigation menu icon. The shell of this system is made up of the header and a left panel.
 
 Navigation drawers are recommended for:
 
 * Interface with five or more top-level destinations
-* Interface with two or more levels of navigation hierarchy
+* Interface with two or more levels of the navigation hierarchy
 * Quick navigation between unrelated destinations
 * The left panel does not support three tiers of navigation. If you have additional content to display beneath a sub-menu, use tabs within the page.
 
@@ -104,14 +105,14 @@ Sometimes used for additional navigation items which are significantly less impo
 
 ## **General Guidance**
 
-Footer guidance will change dependant on the product being developed For example a external website user will have different needs from a footer than an internal web application. Generally, the footer is NOT a catch all for anything you do not know where else to put. Since users rarely make it to the end of pages, it should be minimised to only the things users expect to find as in the items below.
+Footer guidance will change depending on the product being developed for example an external website user will have different needs from a footer than an internal web application. Generally, the footer is not a catch-all for anything you do not know where else to put. Since users rarely make it to the end of pages, it should be minimized to only the things users expect to find as in the items below.
 
-* Copyright (Be sure this is updated programatically to display the correct date at all times)
+* Copyright (Be sure this is updated programmatically to display the correct date at all times)
 * Link to Terms of Service
 * Link to Privacy Policy
 * Software version
 
-Less frequently used because it depends on platform and audience
+Less frequently used because it depends on the platform and audience.
 
 * Contact
 * Sitemap
