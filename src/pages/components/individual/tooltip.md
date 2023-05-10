@@ -23,7 +23,7 @@ featuredimage: /img/tooltip.png
 * Tooltips appear on hover, focus, or touch, and disappear after a short duration.
 * Tooltips should include short and descriptive text.
 * If the tooltip includes a title, set it in sentence case. Titles can wrap as needed.
-* Tooltips should only appear when user hovers over the element and should not immediatly disappear unless the user hovers over another element.
+* Tooltips should only appear when the user hovers over the element and should not immediately disappear unless the user hovers over another element.
 * When the tooltip appears on the page, make sure the focus is on the tooltip, this helps users of assistive technology read the content.
 
 # **Accessibility**
