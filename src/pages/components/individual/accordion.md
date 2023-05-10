@@ -12,7 +12,7 @@ featuredimage: /img/hid-accordion.svg
 
 An accordion is used to show and hide content. Make the entire title label area clickable to trigger expansion. It is ideal to use when you want to display more than 5-10 modules of content.
 
-**W﻿hen to use**
+**When to use**
 
 * Use an accordion to see an overview of multiple, related sections of content.
 * Use an accordion to show and hide sections as needed.
