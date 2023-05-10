@@ -7,13 +7,13 @@ description: Toggle is a control that is used to quickly switch between two
   “on/off” switches.
 featuredimage: /img/toggle-design-assets.png
 ---
-# **G﻿uidelines**
+# **Guidelines**
 
-U﻿se toggle a single item on or off, on mobile and tablet Immediately activate or deactivate something. Toggles are the preferred way to adjust settings on mobile.
+Use toggle a single item on or off, on mobile and tablet Immediately activate or deactivate something. Toggles are the preferred way to adjust settings on mobile.
 
 Toggle labels should be clear, accurate and predictable. It should be possible for the user to understand what they are selecting.
 
-Toggle Switch labels must include a verb, or adjective.
+Toggle Switch labels must include a verb or adjective.
 
  Always use tooltips to clarify the outcome of changing the toggle state.
 
@@ -23,6 +23,6 @@ Labels can be positioned to the left or right of a toggle, depending on layout c
 
 ![](/img/toogle.png)
 
-# **A﻿ccessibility**
+# **Accessibility**
 
 "Coming soon"
