@@ -13,11 +13,11 @@ The select component’s appearance is decided by the browser that is being used
 
 **Do's**
 
-* Always organize the list of options in a way that will make the most sense to the user based on the scenario. The list of options can be sorted alphabetically, numerically or by most commonly selected option
+* Always organize the list of options in a way that will make the most sense to the user based on the scenario. The list of options can be sorted alphabetically, numerically or by the most commonly selected option.
 * Don’t overwhelm the user with too many options, try to avoid options that rarely get used.
 * Use concise, descriptive labels so that users clearly know the purpose of the selection. For example, use a “Save to…” label for a list containing options such as “Cloud, Local drive, CD”.
 
-**Dont's**
+**Don'ts**
 
 * A Select is not a Dropdown, the select and dropdown components may behave similarly but in fact, they have different functions.
 
