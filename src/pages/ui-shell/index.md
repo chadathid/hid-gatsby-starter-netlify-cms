@@ -12,15 +12,16 @@ Grid gives meaning to design and helps us achieve uniformity, readability and vi
 
 Grid is made of Three important elements - Columns, Gutter and Margin
 
-**Columns** - are placed following the vertical blocks that fit fully from the top to the bottom margin.\
-The grid system follows 12 column across the page for web and 4 column across Mobile and Tablet.\
-\
-**Gutters** - are the spaces between the columns. Gutters help to separate the content. The Gutter width for Web is 24 px, 18 px for Mobile and 40 px for Tablet.
+**Columns** - are placed following the vertical blocks that fitfully from the top to the bottom margin.
 
-\
-**Margins** -Margins are the space between content and the edges of the screen.The Margin width for Web is 24 px, 24 px for Mobile and 69 px for Tablet. The margins change as per different screen sizes.
+The grid system follows 12 columns across the page for the web and 4 columns across Mobile and Tablet.
 
-Following this methodology will keep layouts uniform and prevent unreliable responsive behaviour.
+**Gutters** - are the spaces between the columns. Gutters help to separate the content. The Gutter width for the Web is 24px, 18px for Mobile and 40px for Tablet.
+
+
+**Margins** - Margins are the space between content and the edges of the screen. The Margin width for the Web is 24px, 24px for Mobile and 69px for Tablet. The margins change as per different screen sizes.
+
+Following this methodology will keep layouts uniform and prevent unreliable responsive behavior.
 
 ![](/img/grid-full-layout.png)
 
@@ -28,7 +29,7 @@ Following this methodology will keep layouts uniform and prevent unreliable resp
 
 A grid can function in three different ways across different Screen sizes.
 
-* Full Width Layout
+* Full-Width Layout
 * Layout with Expanded Nav
 * Layout with Compact Nav
 
@@ -40,7 +41,8 @@ A grid can function in three different ways across different Screen sizes.
 
 # **Header**
 
-The global header is the anchor of any HID service, or platform, and spans all other parts of the UI.The functionality in the header is applicable across all contexts in the HID ecosystem and consists mainly of a logo element, title of the service (which acts as a wayfaring cures for platforms with multiple services) and action bar (icons) which groups platform wide tasks that need to persist throughout the experience (i.e - account, app launcher and platform settings)
+The global header is the anchor of any HID service, or platform, and spans all other parts of the UI. The functionality in the header is applicable across all contexts in the HID ecosystem and consists mainly of a logo element, 
+title of the service (which acts as a wayfaring cure for platforms with multiple services) and action bar (icons) which groups platform wide tasks that need to persist throughout the experience (i.e. - account, app launcher and platform settings)
 
 ## **General Guidance**
 
@@ -81,10 +83,10 @@ Navigation drawers are recommended for:
 
 The left side drawer navigation contains secondary navigation and is positioned below the header and fixed to the left. Both links and sub-menus can be used in the side-nav and may be mixed together.
 
-## **V﻿ariants**
+## **Variants**
 
-\
-**Expanded** - Navigation style with icons and their corresponding text giving greater clarity to the purpose of the menu items.\
+**Expanded** - Navigation style with icons and their corresponding text giving greater clarity to the purpose of the menu items.
+
 **Collapsed** - Navigation style where only icons are visible making the greatest use of space for content.
 
 ![](/img/side-nav-collapsed-and-expanded.png)
