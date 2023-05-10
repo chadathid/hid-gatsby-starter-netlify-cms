@@ -11,23 +11,24 @@ featuredimage: /img/grid-compact-nav.png
 ---
 # **G﻿uidelines**
 
-Grid is made of Three important elements - Columns, Gutter and Margin
+Grid is made of Three important elements - Columns, Gutter and Margin.
 
-**Columns** - are placed following the vertical blocks that fit fully from the top to the bottom margin.\
-The grid system follows 12 column across the page for web and 4 column across Mobile and Tablet.\
-\
-**Gutters** - are the spaces between the columns. Gutters help to separate the content. The Gutter width for Web is 24 px, 18 px for Mobile and 40 px for Tablet.
+**Columns** - are placed following the vertical blocks that fitfully from the top to the bottom margin.
 
-\
-**Margins** -Margins are the space between content and the edges of the screen.The Margin width for Web is 24 px, 24 px for Mobile and 69 px for Tablet. The margins change as per different screen sizes.
+The grid system follows 12 columns across the page for the web and 4 columns across Mobile and Tablet.
 
-Following this methodology will keep layouts uniform and prevent unreliable responsive behaviour.
+**Gutters** - are the spaces between the columns. Gutters help to separate the content. The Gutter width for the Web is 24px, 18px for Mobile and 40px for Tablet.
+
+
+**Margins** -Margins are the space between content and the edges of the screen. The Margin width for the Web is 24px, 24px for Mobile and 69px for Tablet. The margins change as per different screen sizes.
+
+Following this methodology will keep layouts uniform and prevent unreliable responsive behavior.
 
 # **Variants**
 
 A grid can function in three different ways across different Screen sizes.
 
-* Full Width Layout
+* Full-Width Layout
 * Layout with Expanded Nav
 * Layout with Compact Nav
 
