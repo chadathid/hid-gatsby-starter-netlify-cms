@@ -13,10 +13,12 @@ featuredimage: /img/breadcrumb.png
 
 The breadcrumb component is a well-known secondary navigation pattern that shows hierarchy among content or traces a user’s path. Breadcrumbs are space efficient and high utility design that enable users to move quickly up to a parent level or previous step.
 
-**When to Use**\
-Breadcrumbs are very effective in products and experiences that have a large amount of content organised in a hierarchy of more than two levels. They are also highly effective in flows that contain multiple steps.\
+**When to Use**
+
+Breadcrumbs are very effective in products and experiences that have a large amount of content organized in a hierarchy of more than two levels. They are also highly effective in flows that contain multiple steps.\
 \
-**Do not Use**\
+**Do not Use**
+
 Breadcrumbs are always treated as secondary and should never entirely replace the primary navigation.
 
 # **Behavior**
