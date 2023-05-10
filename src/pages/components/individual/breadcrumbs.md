@@ -4,14 +4,14 @@ title: Breadcrumbs
 description: >-
   
 
-  Breadcrumbs are secondary navigation pattern which helps users understand the hierarchy among levels and navigate back through them. Breadcrumbs helps users understanding where they are in a website.
+  Breadcrumbs are secondary navigation pattern that helps users understand the hierarchy among levels and navigate back through them. Breadcrumbs helps users understand where they are on a website.
 featuredimage: /img/breadcrumb.png
 ---
 ![](/img/breadcrumb.png)
 
 # **Guidelines**
 
-The breadcrumb component is a well-known secondary navigation pattern that shows hierarchy among content or traces a user’s path. Breadcrumbs are space efficient and high utility design that enable users to move quickly up to a parent level or previous step.
+The breadcrumb component is a well-known secondary navigation pattern that shows hierarchy among content or traces a user’s path. Breadcrumbs are space-efficient and high-utility design that enable users to move quickly up to a parent level or previous step.
 
 **When to Use**
 
