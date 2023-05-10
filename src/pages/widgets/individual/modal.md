@@ -14,7 +14,7 @@ featuredimage: /img/modal-widget.svg
 * Use it when you want to get information from the user. Ex. sign up or login form.
 * Use it when you want to show additional information without losing the context of the parent page. Ex. showing larger images or videos.
 * Use it when you want to show information that is not directly related to the parent page or other options that are “independent” from other pages. Ex. notifications.
-* When modal is open, use a light box effect (darken the background). This draws attention to the modal and indicates that the user cannot interact with the parent page.
+* When the modal is open, use a lightbox effect (darken the background). This draws attention to the modal and indicates that the user cannot interact with the parent page.
 
   A modal window should not be too big or too small. We follow 3 sizes for desktop usage based on the purpose and content.
 
@@ -28,7 +28,7 @@ featuredimage: /img/modal-widget.svg
 
   **Location** — Upper half of the screen, preferably center aligned because in mobile view modal may be lost if placed lower.
 
-  **Appearance** — A modal will have clear title, precise content and definite action to move on with the main flow. When opening an overlay, it’s important that the page behind is slightly darkened. 
+  **Appearance** — A modal will have a clear title, precise content and definite action to move on with the main flow. When opening an overlay, it’s important that the page behind is slightly darkened.  
 
 ![](/img/modal.png)
 
