@@ -33,7 +33,7 @@ Clickable tiles can be used as navigational items, where the entire tile is a cl
 
 **Selectable**
 
-Selectable tiles work like a radio button, where the entire tile is a click target. Selectable tiles may contain internal CTAs (like links to docs) if the internal CTA is given its own click target. Selectable tiles work well for presenting options to a user in a structured manner, such as a set of pricing plans.
+Selectable tiles work like a radio button, where the entire tile is in a click target. Selectable tiles may contain internal CTAs (like links to docs) if the internal CTA is given its own click target. Selectable tiles work well for presenting options to a user in a structured manner, such as a set of pricing plans.
 
 **Expandable**
 
