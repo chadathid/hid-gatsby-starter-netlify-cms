@@ -15,17 +15,11 @@ featuredimage: /img/divider.png
 
 # **Variants**
 
-**Content Divider** - Divider to seperate text blocks
+**Content Divider** - Divider to separate text blocks
 
-\
-**Canvas Divider** - Divider to seperate text and elements within cards, menus, etc...
+**Canvas Divider** - Divider to separate text and elements within cards, menus, etc...
 
-\
 **Alert Divider** - Divider for alert content
-
-
-
-
 
 # **Accessibility**
 
