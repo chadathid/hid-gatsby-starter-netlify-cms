@@ -31,11 +31,11 @@ They enable compact and simple representation as compared to pie charts. Further
 
 **Utility**
 
-**Legend** - Present the top 5 groups and rest if any will be presented and group as “Other”.
+**Legend** - Present the top 5 groups and the rest if any will be presented and grouped as “Other”.
 
 **Color** - HID Brand Colors
 
-**Donut Chart Label** - Varies based on use case
+**Donut Chart Label** - Varies based on the use case
 
 **Default State** - Always present the highest categorical group.
 
