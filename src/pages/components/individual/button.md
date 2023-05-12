@@ -54,4 +54,9 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 
 # **Accessibility**
 
-"Coming soon"
+* Use a button to perform an action.
+* Navigate to and activate a button with assistive tech
+* Understand meaning of the icon
+*When applicable, a tooltip is available to help describe the icon button's purpose
+* Understand what each segment selection will do
+* Navigate to and activate segmented buttons with assistive tech
