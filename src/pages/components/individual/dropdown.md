@@ -22,4 +22,8 @@ featuredimage: /img/dropdown-white-background.png
 
 # **Accessibility**
 
-"Coming soon"
+* A dropdown with a simple list is a menu with a set of options.
+* A dropdown with a multi-select list includes tags to indicate that the user can select any number of options.
+* Add a Select all tags to select or deselect all options in the list.
+
+
