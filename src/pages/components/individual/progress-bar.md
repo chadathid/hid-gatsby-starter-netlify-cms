@@ -31,4 +31,6 @@ Do not use the progress bar for complex tasks with steps involved, such as onboa
 
 # **Accessibility**
 
-"Coming soon"
+* The indeterminate progress bar does not measure progress, and so cannot programmatically inform the user when the process is complete.
+* Information on both outcomes must be presented in the help text above the progress bar.
+* Helper text is required when a progress bar is in error or indeterminate.
