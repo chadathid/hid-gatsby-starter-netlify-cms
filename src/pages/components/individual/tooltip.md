@@ -28,4 +28,6 @@ featuredimage: /img/tooltip.png
 
 # **Accessibility**
 
-"Coming soon"
+* A Tooltip **must** have a focusable, interactive trigger
+* A Tooltip should show on mouse hover **and** keyboard focus
+* A Tooltip **must not** contain focusable or interactive content
