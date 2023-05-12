@@ -30,4 +30,8 @@ Arrange list items in a logical way. For example, if the list is about resource 
 
 # **Accessibility**
 
-"Coming soon"
+* Navigate to a list item with assistive technology
+* Select list item
+* When a user taps on a list item, a touch ripple appears, indicating interaction feedback.
+* When hovered, the hover state provides a visual cue to the user that the element is interactive.
+* 
