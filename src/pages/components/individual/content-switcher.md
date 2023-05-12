@@ -43,4 +43,5 @@ Do not use Content switcher to navigate between related sections of content, use
 
 # **A﻿ccessibility**
 
-"Coming soon"
+* The automatic and manual switchers are visually indistinguishable in a wireframe, so designers should annotate which variant the team has decided to implement. Since the choice largely concerns technical considerations about potential latency when updating the content section’s information, architects or developers should be involved in the discussion.
+* Annotate whether the switcher should be implemented as automatic or manual.
