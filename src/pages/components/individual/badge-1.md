@@ -27,4 +27,5 @@ Do not add multiple badges to a single icon. This makes it complicated for the u
 
 # **Accessibility**
 
-"Coming soon"
+* Understand the dynamic information conveyed in badges, such as counts or labels
+* Address badge announcements by selecting corresponding navigation destinations
