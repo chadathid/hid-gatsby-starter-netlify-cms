@@ -25,4 +25,6 @@ Labels can be positioned to the left or right of a toggle, depending on layout c
 
 # **Accessibility**
 
-"Coming soon"
+* A toggle button allows a user to pick between two states, on and off.
+* A Toggle Button's text should not change based on state
+* Focus should stay on the button when it is pressed
