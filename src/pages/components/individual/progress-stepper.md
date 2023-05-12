@@ -34,4 +34,5 @@ When the user has completed the whole process of the task, the stepper will end 
 
 # **Accessibility**
 
-"Coming soon"
+* The progress indicator is a visual cue, it should have an accessibility label to assist users who cannot rely on the product's visual interface.
+* Use an accessibility label to describe the role and meaning of the progress indicator, including what content is being loaded.
