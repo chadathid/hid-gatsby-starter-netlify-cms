@@ -28,4 +28,5 @@ featuredimage: /img/tabs.png
 
 * When a user taps on an icon button, a touch ripple appears, indicating interaction feedback
 * The selected indicator becomes active and shifts into position once the touch has been engaged
-* 
+* When hovered, the hover state appears, providing a visual cue that the icon button is interactive. 
+* When clicked (in both active and inactive states), a ripple appears and the indicator shifts into position, showing the user feedback.
