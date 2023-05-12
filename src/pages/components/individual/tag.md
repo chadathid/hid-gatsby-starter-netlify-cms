@@ -30,8 +30,8 @@ All tags have the same height. However, the width of tags varies based on the am
 # **Accessibility**
 
 * Use a tag to perform an action
-* A chip that performs an action should present the same semantics as a button to a platform's accessibility API.
-* The accessibility label for a chip ideally comes from the visible label text on the chip.
-* While multiple chips can be selected, only one can be in focus
-* If a chip can be deleted, it’s recommended to display the X delete icon.
-* Each chip is a focusable element. If a chip has a delete icon and no other action the entire chip and X icon are one focusable element. If a chip has another action, like select, then the chip content and X icon are two separate focusable elements.
+* A tag that performs an action should present the same semantics as a button to a platform's accessibility API.
+* The accessibility label for a tag ideally comes from the visible label text on the tag.
+* While multiple tags can be selected, only one can be in focus
+* If a tag can be deleted, it’s recommended to display the X delete icon.
+* Each tag is a focusable element. If a tag has a delete icon and no other action the entire tag and X icon are one focusable element. If a tag has another action, like select, then the tag content and X icon are two separate focusable elements.
