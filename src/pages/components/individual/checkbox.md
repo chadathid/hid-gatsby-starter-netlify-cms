@@ -30,4 +30,6 @@ Always use clear and concise labels for checkboxes. Be explicit about the result
 
 # **Accessibility**
 
-"Coming soon"
+* Navigate to a checkbox with assistive technology
+* Toggle the checkbox on and off
+* Users should be able to select either the text label or the checkbox to select an option.
