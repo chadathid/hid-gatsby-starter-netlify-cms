@@ -55,8 +55,10 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 # **Accessibility**
 
 * Use a button to perform an action.
-* Navigate to and activate a button with assistive tech
+* The accessibility label for a button ideally comes from the visible label text on the button such as Done, Send, or Reply. Consider aligning the accessibility label (used for assistive technology devices like screen readers) with the visible label text.
 * Understand meaning of the icon
-*When applicable, a tooltip is available to help describe the icon button's purpose
+* When applicable, a tooltip is available to help describe the icon button's purpose
+* Ensure the FAB is prioritized in the overall focus order to create an efficient experience for people who navigate UIs with assistive tech.
 * Understand what each segment selection will do
 * Navigate to and activate segmented buttons with assistive tech
+* On hover, the icon button may display a tooltip describing its action, rather than the name of the icon itself.
