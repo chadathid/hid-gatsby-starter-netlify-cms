@@ -34,4 +34,7 @@ The text area and text input components have different use cases. Consider the l
 
 # **A﻿ccessiblity**
 
-"Coming soon"
+* Navigate to and activate a text field with assistive technology
+* Input information into the text field
+* Receive and understand supporting text and error messages
+* Navigate to and select interactive icons
