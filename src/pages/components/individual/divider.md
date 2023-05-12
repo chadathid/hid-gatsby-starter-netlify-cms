@@ -23,4 +23,4 @@ featuredimage: /img/divider.png
 
 # **Accessibility**
 
-"Coming soon"
+* Dividers are decorative elements and have no minimum contrast requirements.
