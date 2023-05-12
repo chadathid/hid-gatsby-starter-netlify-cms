@@ -25,3 +25,7 @@ featuredimage: /img/tabs.png
 ![](/img/tabs-default.png)
 
 # **Accessibility**
+
+* When a user taps on an icon button, a touch ripple appears, indicating interaction feedback
+* The selected indicator becomes active and shifts into position once the touch has been engaged
+* 
