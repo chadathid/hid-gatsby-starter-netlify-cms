@@ -31,4 +31,4 @@ The select component’s appearance is decided by the browser that is being used
 
 # **Accessibility**
 
-"Coming soon"
+* Always use a label. Make sure your select element has a label. Don’t replace it with the default menu option
