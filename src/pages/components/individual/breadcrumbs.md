@@ -27,4 +27,5 @@ Breadcrumbs are always treated as secondary and should never entirely replace th
 
 # **Accessibility**
 
-"Coming soon"
+* Breadcrumb helps search engineers navigate a website and find content to index. 
+* Keep navigation breadcrumbs short, simple, and to the point. Include important keywords whenever possible.
