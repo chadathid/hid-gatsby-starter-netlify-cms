@@ -30,4 +30,4 @@ Labels can be positioned to the left or right of a toggle, depending on layout c
 * Focus should stay on the button when it is pressed
 * Initial focus lands directly on the switch’s thumb, since it’s the primary interactive element of the component.
 * The accessibility label for a switch is typically the same as the switch’s adjacent text label.
-* While the visible label text reads “Toggle label,” the accessibility label for this switch clarifies its function: “Toggle label access”
+* While the visible label text reads “Toggle label,” the accessibility label for this switch clarifies its function: “Toggle label access.”
