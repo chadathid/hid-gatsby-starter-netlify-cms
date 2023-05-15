@@ -34,6 +34,8 @@ The text area and text input components have different use cases. Consider the l
 
 # **A﻿ccessiblity**
 
+* Containers improve the discoverability of text fields by creating contrast between the text field and surrounding content. 
+* If a text field requires input, indicate so with an asterisk at the end of the text field label. The accessibility label must include the asterisk.
 * Navigate to and activate a text field with assistive technology
 * Input information into the text field
 * Receive and understand supporting text and error messages
