@@ -10,4 +10,11 @@ The date and time picker control are used to allow the user to select a date an
 
 # **Accessibility**
 
-"Coming soon"
+* Enter dates manually by inputting text, without using the picker
+* On the Docked Date Picker, the text field can be used for input.
+* On Modal Date Picker, the input picker should be available from the calendar pickers via the edit icon.
+* The edit icon indicates the ability to switch to the mobile input picker.
+- The date entry component offers two ways to enter a date:
+    - Direct text entry into a text field
+    - Through the date picker
+* The calendar icon is the exclusive entry point for the date picker.
