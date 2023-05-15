@@ -27,5 +27,7 @@ Breadcrumbs are always treated as secondary and should never entirely replace th
 
 # **Accessibility**
 
+* Breadcrumbs are useful on large websites where pages have clearly defined hierarchy.
+* These navigation patterns can allow users to easily backtrack through related pages, or the pathway they had taken to reach the current page.
 * Breadcrumb helps search engineers navigate a website and find content to index. 
 * Keep navigation breadcrumbs short, simple, and to the point. Include important keywords whenever possible.
