@@ -30,5 +30,5 @@ Do not add multiple badges to a single icon. This makes it complicated for the u
 * Understand the dynamic information conveyed in badges, such as counts or labels
 * Address badge announcements by selecting corresponding navigation destinations
 * Badges are most commonly used within other components, such as navigation bar, navigation rail, top app bars, and tabs.
-* When a badge is used to indicate an unread notification, the badge gets hidden once it has been selected.
 * Badges use a color intended to stand out against labels, icons, and navigation elements. Use the default color mapping to avoid color conflict issues.
+* When a badge is used to indicate an unread notification, the badge gets hidden once it has been selected.
