@@ -18,3 +18,7 @@ The date and time picker control are used to allow the user to select a date an
     - Direct text entry into a text field
     - Through the date picker
 * The calendar icon is the exclusive entry point for the date picker.
+* Enter time selection manually using input fields
+* Choose from multiple time formats including 24 hour clock view and AM/PM
+* Time pickers should allow manual time entry through text input, rather than exclusively through the dial selector. This makes it easier for those using keyboard inputs rather than touchscreens. 
+* 
