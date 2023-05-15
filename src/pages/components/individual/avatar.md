@@ -24,6 +24,5 @@ The default icon size is 24px. The icon is mostly used to accompany some sort of
 # **A﻿ccessibility**
 
 * An avatar is a visual representation of a user or entity.
-* 
 * Use the **name** prop to ensure there is an alternative text equivalent for screen readers.
 * To avoid confusion, do not use a **tooltip with an avatar** when it is non-interactive or disabled, as the tooltip may not work consistently for keyboard users and screen readers.
