@@ -40,4 +40,6 @@ clicked
 
 # **Accessibility**
 
-"Coming soon"
+* Do not mix the usage of links and buttons
+* Make sure all links are unique and descriptive
+* Images of text in links should be avoided; use actual text instead
