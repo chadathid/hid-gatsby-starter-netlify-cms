@@ -34,4 +34,6 @@ featuredimage: /img/modal-widget.svg
 
 # **Accessibility**
 
-"Coming soon"
+* Use Modal when a response is required from the user. Clearly communicate what response is expected and make the action simple and straight forward, such as clicking a button to confirm. The most common responses will be related to confirming or canceling.
+* Limit the number of actions in a Modal. A primary and secondary action should be used for Modals.
+* In the few cases where Modals are being used within the Pinner product, aim to prevent the content from needing to scroll at a reasonable screen size.
