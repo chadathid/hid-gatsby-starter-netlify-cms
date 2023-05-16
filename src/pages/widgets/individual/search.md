@@ -30,4 +30,7 @@ featuredimage: /img/search-widget.svg
 
 # **Accessibility**
 
-"Coming soon"
+* To search or filter content within a surface.
+* Place SearchField above the content the user will be searching.
+* Make the ``placeholder`` specific. Give the user a hint about the content they're searching and/or what parameters they can use to search.
+* Make sure SearchField is displayed wide enough to completely display common search terms.
