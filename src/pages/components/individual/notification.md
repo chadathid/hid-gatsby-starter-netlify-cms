@@ -40,4 +40,11 @@ Notification status helps convey the information being communicated. These statu
 
 # **Accessibility**
 
-"Coming soon"
+* Notification titles must accurately describe the meaning and purpose of the notification
+* Avoid timed notifications
+* Provide users with settings to turn off nonessential notifications or change the frequency
+* Avoid using icons alone to convey meaning
+* Make sure icons are universally recognizable
+* Avoid using a toast notification for critical alerts or long messages because they are timed and will disappear automatically making it difficult for people with various disabilities to get the entire message.
+* Provide a means to turn off nonessential alerts to enhance usability for people with visual and cognitive disabilities.
+* Ensure the use of color and hidden icons are not used as the only means of conveying the importance of the notification.
