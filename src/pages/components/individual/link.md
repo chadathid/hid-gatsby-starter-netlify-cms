@@ -41,5 +41,6 @@ clicked
 # **Accessibility**
 
 * Do not mix the usage of links and buttons
+* Avoid using Link to perform actions other than navigation or accessing external pages. Link should serve a navigation purpose.
 * Make sure all links are unique and descriptive
 * Images of text in links should be avoided; use actual text instead
