@@ -35,4 +35,8 @@ The left side drawer navigation contains secondary navigation and is positioned 
 
 # **Accessibility**
 
-"Coming soon"
+* When Tabs or a top navigation cannot accommodate the number of links or sections you need to navigate through.
+* When a deep hierarchy of navigation items is needed
+* Keep item labels brief and clear to keep them memorable and scannable.
+* Group related items and use section headings to help users parse information and help with redundancy.
+* Use icons that clearly match their text labels and serve as bullet points for the content.
