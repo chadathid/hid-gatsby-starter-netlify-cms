@@ -30,5 +30,6 @@ Arrange list items in a logical way. For example, if the list is about resource 
 
 # **Accessibility**
 
-* Select list item
-* When a user taps on a list item, a touch ripple appears, indicating interaction feedback.
+* Use List when you are displaying more than two items or points.
+* To present a grouping of simple, related information. For more complex data
+* To break up related content into easily digestable chunks.
