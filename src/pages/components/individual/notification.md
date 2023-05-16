@@ -40,7 +40,7 @@ Notification status helps convey the information being communicated. These statu
 
 # **Accessibility**
 
-* Notification titles must accurately describe the meaning and purpose of the notification
+* Notification Icons must accurately describe the meaning and purpose of the notification 
 * Avoid timed notifications
 * Provide users with settings to turn off nonessential notifications or change the frequency
 * Avoid using icons alone to convey meaning
