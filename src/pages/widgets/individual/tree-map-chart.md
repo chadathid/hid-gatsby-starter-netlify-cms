@@ -43,4 +43,4 @@ Tree maps are one of the most compact and space-efficient options for displaying
 
 # **Accessibility**
 
-"Coming soon"
+* A tree view uses a containing element with the tree role. Nodes use the tree item role.
