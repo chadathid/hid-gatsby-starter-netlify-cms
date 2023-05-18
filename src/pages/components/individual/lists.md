@@ -31,5 +31,5 @@ Arrange list items in a logical way. For example, if the list is about resource 
 # **Accessibility**
 
 * Use List when you are displaying more than two items or points.
-* To present a grouping of simple, related information. For more complex data
+* To present a grouping of simple, related information. For more complex data.
 * To break up related content into easily digestable chunks.
