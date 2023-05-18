@@ -33,4 +33,4 @@ A header helps users identify where they are and provides a quick, organized way
 
 # **A﻿ccessibility**
 
-"Coming soon"
+* Header is used to inform a user about the overall content of a page.
