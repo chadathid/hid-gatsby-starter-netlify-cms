@@ -34,4 +34,3 @@ Do not use the progress bar for complex tasks with steps involved, such as onboa
 * Ensure each progress bar meets the appropriate level of contrast
 * Use the top placement when stacking progress bar in an on-page experience
 * Information on both outcomes must be presented in the help text above the progress bar.
-* Helper text is required when a progress bar is in error or indeterminate.
