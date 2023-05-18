@@ -23,7 +23,9 @@ featuredimage: /img/badge-with-numbers.png
 Badge is only used to provide advisory information to the user, do not use it for communicating high-priority information, instead the use notification.\
 Do not add multiple badges to a single icon. This makes it complicated for the user to recognize it’s intended meaning.
 
-![](/img/frame-4.png)
+![](/static/img/badge.png)
+
+![](/static/img/badge-2.png)
 
 # **Accessibility**
 
