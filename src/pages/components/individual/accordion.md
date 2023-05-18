@@ -29,8 +29,9 @@ An accordion is used to show and hide content. Make the entire title label area 
 # **Accessibility**
 
 - An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content.
-- Each header controls it’s associated content. The header also will have a control that can show / hide or expand / collapse the associated section.
--﻿ Accordions as mentioned can show or hide the content which reduces the need for scrolling the page when multiple sections are on the page. 
+- Each header controls it’s associated content. 
+- The header also will have a control that can show / hide or expand / collapse the associated section.
+- Accordions as mentioned can show or hide the content which reduces the need for scrolling the page when multiple sections are on the page. 
 - Accordions can either be multi-expandable or single expandable. 
 
 
