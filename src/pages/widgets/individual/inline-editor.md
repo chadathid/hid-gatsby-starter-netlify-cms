@@ -24,4 +24,5 @@ The Inline Text editor is used exclusively in features that allow users to edit 
 
 # **Accessibility**
 
-"Coming soon"
+* An Inline Editing pattern is applied to an entire section if all the information belongs to the same object, and is edited as a group. 
+* Since there are dependencies between the fields in the section, the entire group is made editable.
