@@ -18,7 +18,7 @@ featuredimage: /img/dropdown-white-background.png
 
 # **Behavior**
 
-![](/img/dropdown-white-background.png)
+![](/static/img/dropdown.png)
 
 # **Accessibility**
 
