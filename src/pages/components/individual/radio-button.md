@@ -32,4 +32,4 @@ Used to choose a single item within a data table or list.
 * The radio button has two states: selected and unselected. 
 * There’s a brief but important interaction where the user changes the states of the buttons by selecting an option.
 * Users should be able to select either the text label or the radio button to select an option. 
-* Once selected, there is always one radio button selected in the group, users can change their selection but they can’t unselect.
+* Once selected, there is always one radio button selected in the group, users can change their selection, but they can’t unselect.
