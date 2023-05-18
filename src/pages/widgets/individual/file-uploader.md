@@ -24,4 +24,7 @@ There are two major components of the file uploader.
 
 # **Accessibility**
 
-"Coming soon"
+  * ﻿File Upload Input allows a user to upload files via Input field.
+ * File Upload can be set to be clearable with the close icon.
+* In the file uploader the Progress component creating a full file upload form displays an area where the uploaded file name is visible.
+ * File Upload inherits the status properties of Input — none, success, warning, error, loading.
