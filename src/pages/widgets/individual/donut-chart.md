@@ -49,4 +49,5 @@ They enable compact and simple representation as compared to pie charts. Further
 
 # **Accessibility**
 
-"Coming soon"
+* Donut charts are ideal for comparing part-to-whole and display the data in a circular format with each section representing one series in the data.
+* Donut charts are best suited for just a few data points (around 5) to give a quick idea of composition, but become more difficult to read and understand with a large number of series.
