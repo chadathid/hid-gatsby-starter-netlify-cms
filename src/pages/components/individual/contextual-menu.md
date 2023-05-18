@@ -10,8 +10,8 @@ featuredimage: /img/contextual-menu-iterated.png
 ---
 # **Guidelines**
 
-On desktop, the main interactions that reveal contextual menus include Right-clicking on a two-button mouse, Pressing the Control (Ctrl) button and then clicking or Two-finger click on a trackpad.\
-\
+On desktop, the main interactions that reveal contextual menus include Right-clicking on a two-button mouse, Pressing the Control (Ctrl) button and then clicking or Two-finger click on a trackpad.
+
 For example, Right clicking on a highlighted text in Microsoft Word reveals a contextual menu that contains text-specific actions such as Copy or Spell Check.
 
 * Include only the most commonly used commands that are appropriate in the current context.
@@ -21,7 +21,7 @@ For example, Right clicking on a highlighted text in Microsoft Word reveals a co
 * To avoid choice overload, limit the number of items within a contextual menu to 10 - 12 commands.
 * Don’t hide irrelevant actions, disable them so that users won’t have to try to find where menu items disappeared.
 
-![](/img/contextual-menu-.png)
+![](/static/img/contextual-menu-iterated-.png)
 
 # **Accessibility**
 
