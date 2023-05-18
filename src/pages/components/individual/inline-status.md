@@ -30,14 +30,18 @@ Inline Status is only used to provide advisory information to the user, do not u
 **These are some typical situations in which each color could be used:**
 
 
-**Red** - Error status is used to alert a failed process or emergency alerts\
-**Orange** - Warning status is used to notify the user of an expiring license or process\
-**Green** - Success status is used to communicate that an update has been successfully completed\
-**Blue** - Info status is used to communicate a process in progress or current status or update\
-**Grey** - None status is used to notify users regarding a basic, general status where no further action is required.\
+**Red** - Error status is used to alert a failed process or emergency alerts
+
+**Orange** - Warning status is used to notify the user of an expiring license or process
+
+**Green** - Success status is used to communicate that an update has been successfully completed
+
+**Blue** - Info status is used to communicate a process in progress or current status or update
+
+**Grey** - None status is used to notify users regarding a basic, general status where no further action is required.
 The lowest level of severity is grey (neutral) and the highest level of severity, is red (Alert).
 
-![](/img/frame-1.png)
+![](/static/img/inline-status.png)
 
 # **Accessibility**
 
