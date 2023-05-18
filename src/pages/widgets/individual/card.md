@@ -41,6 +41,7 @@ Expandable tiles are helpful for hiding/showing larger amounts of content to a u
 
 # **Accessibility**
 
+* Card is built to be modular and flexible.
+* There are three core sections — Header, Body and Footer.
 * When a user taps on a card, a touch ripple appears, indicating interaction feedback.
 * When hovered, the hover state provides a visual cue to the user that the element is interactive.
-* When clicked, a ripple appears, showing the user feedback.
