@@ -25,7 +25,7 @@ Used to choose a single item within a data table or list.
 
 # **Behavior**
 
-![](/img/radio-button-states.png)
+![](/static/img/radio-button-white-theme.png)
 
 # **Accessibility**
 
