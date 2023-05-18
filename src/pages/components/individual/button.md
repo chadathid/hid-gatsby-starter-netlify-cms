@@ -34,7 +34,7 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 
 # **Behavior**
 
-![](/img/button-2.png)
+![](/static/img/button.png)
 
 # **Variant**                      
 
