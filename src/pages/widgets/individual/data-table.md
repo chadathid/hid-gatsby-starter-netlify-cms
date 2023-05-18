@@ -12,7 +12,7 @@ featuredimage: /img/tables-shown-with-page-layouts-for-context-.png
 
 Tables are used to organize data that is too detailed or complicated to be described adequately in the text, allowing the reader to quickly see the results. They can be used to highlight trends or patterns in the data and to make a manuscript more readable by removing numeric data from the text.
 
-![](/img/data-table.png)
+![](/static/img/data-table.png)
 
 **Tables with Selections**
 
