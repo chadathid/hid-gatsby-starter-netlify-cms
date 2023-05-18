@@ -15,15 +15,15 @@ The breadcrumb component is a well-known secondary navigation pattern that shows
 
 **When to Use**
 
-Breadcrumbs are very effective in products and experiences that have a large amount of content organized in a hierarchy of more than two levels. They are also highly effective in flows that contain multiple steps.\
-\
+Breadcrumbs are very effective in products and experiences that have a large amount of content organized in a hierarchy of more than two levels. They are also highly effective in flows that contain multiple steps.
+
 **Do not Use**
 
 Breadcrumbs are always treated as secondary and should never entirely replace the primary navigation.
 
 # **Behavior**
 
-![](/img/frame-3.png "Breadcrumb states")
+![](/static/img/breadcrumbs.png)
 
 # **Accessibility**
 
