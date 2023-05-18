@@ -23,6 +23,8 @@ For example, Right clicking on a highlighted text in Microsoft Word reveals a co
 
 ![](/img/contextual-menu-.png)
 
-# **A﻿ccessibility**
+# **Accessibility**
 
-"Coming soon"
+* Usage of submenus can be limited
+* The number of items can be limited.
+* Disable items that aren’t relevant to the user’s context.
