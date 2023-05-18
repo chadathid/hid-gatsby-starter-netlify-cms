@@ -34,4 +34,4 @@ The select component’s appearance is decided by the browser that is being used
 * Select is a type of input that is used in forms, where a user is submitting data and chooses one option from a list.
 *  Select and dropdown are visually similar, however, the appearance of the select component will be determined by browser and device settings.
 * Use the select component if the user must select only one option from a list of more than five options.
-* Always use a label. Make sure your select element has a label. Don’t replace it with the default menu option
+* Always use a label. Make sure your select element has a label. Don’t replace it with the default menu option.
