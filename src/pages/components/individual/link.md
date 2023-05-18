@@ -41,6 +41,9 @@ clicked
 # **Accessibility**
 
 * Do not mix the usage of links and buttons
-* Avoid using Link to perform actions other than navigation or accessing external pages. Link should serve a navigation purpose.
+* Avoid using Link to perform actions other than navigation or accessing external pages. 
+* Link should serve a navigation purpose.
 * Make sure all links are unique and descriptive
-* Images of text in links should be avoided; use actual text instead
+* Images of text in links should be avoided, use actual text instead.
+* Highlighting URL destinations.
+* Use bold font-weight in link elements such as lists, profile and board names, and any link element that an underline style isn't necessary to convey interactivity.
