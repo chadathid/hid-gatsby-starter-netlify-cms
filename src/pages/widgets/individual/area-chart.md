@@ -51,4 +51,12 @@ Do not use the area chart if there are negative values.
 
 # **Accessibility**
 
-"Coming soon"
+* Area charts are sometimes referred to as a filled line or surface graph.
+* It is ideal for adding emphasis to a dataset by virtue of shading or color.
+* Use transparency to make the chart easy to read and avoid obscuring the grid.
+* On the y-axis, choose increments that are easy to follow. All values on the y-axis must be divisible by the increment itself.
+* Always include a zero baseline on the y-axis. An Area graph that doesn't include a zero baseline is misleading.
+* Choose a time period that encompasses reference points that add perspective to the data.
+* Always label your axes and include the units for the y-axis.
+* The grid lines should be dotted lines.
+* The legend is the key to the information. It should be positioned above or to the left of the graph and in the same order as the sequence of the components.
