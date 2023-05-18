@@ -31,6 +31,6 @@ A header helps users identify where they are and provides a quick, organized way
 
 ![](/img/header-states.png)
 
-# **A﻿ccessibility**
+# **Accessibility**
 
 * Header is used to inform a user about the overall content of a page.
