@@ -32,13 +32,7 @@ A grid can function in three different ways across different Screen sizes.
 * Layout with Expanded Nav
 * Layout with Compact Nav
 
-![](/img/grid-compact-nav.png)
-
-![](/img/grid-expanded-nav.png)
-
-![](/img/grid-full-layout.png)
-
-![](/img/grid-mobile-and-tablet.png)
+![](/static/img/grid.png)
 
 # **A﻿ccessibility**
 
