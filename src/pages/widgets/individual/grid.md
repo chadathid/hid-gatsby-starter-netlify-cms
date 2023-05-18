@@ -42,4 +42,5 @@ A grid can function in three different ways across different Screen sizes.
 
 # **A﻿ccessibility**
 
-"Coming soon"
+* Grid Layout is a container component that allows to rearrange and resize content panels.
+* Grid Layout is responsive and can be used on a wide array of device types.
