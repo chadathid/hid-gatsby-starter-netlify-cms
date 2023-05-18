@@ -24,7 +24,8 @@ featuredimage: /img/dropdown-white-background.png
 
 * A dropdown with a simple list is a menu with a set of options.
 * A dropdown with a multi-select list includes tags to indicate that the user can select any number of options.
-* Add a Select all tags to select or deselect all options in the list.
+* Displaying a list of actions, options, or links. Usually displays 3 or more options.
+* Taking immediate action or navigating users to another view.
 * The accessibility label should align with each list item’s text label. 
 * If a tag can be deleted, it’s recommended to display the X delete icon.
 * Each tag is a focusable element. If a tag has a delete icon and no other action the entire tag and X icon are one focusable element. If a tag has another action, like select, then the tag content and X icon are two separate focusable elements.
