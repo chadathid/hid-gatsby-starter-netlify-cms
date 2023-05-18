@@ -43,4 +43,4 @@ The lowest level of severity is grey (neutral) and the highest level of severity
 
 * Use Status to communicate a step in a workflow or the state of an item.
 * Place Status close to its subject to provide context and reference. It can be placed as an inline element or paired side by side as needed.
-* Use ``title`` when the status it represents is unique, specific and critical for the user to know.
+* Use label when the status it represents is unique, specific and critical for the user to know.
