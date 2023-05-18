@@ -18,9 +18,9 @@ The Inline Text editor is used exclusively in features that allow users to edit 
 * The toolbar is always visible and fixed, the user has access to all the action groups. To start typing, the user has to click inside the content area.
 * The Content area allows a user to enter text, as well as other content, such as images or hyperlinks etc.
 
-![](/img/inline-editor.png)
+![](/static/img/inline-editor.png)
 
-![](/img/inline-editoe.png)
+![](/static/img/inline-editor-2.png)
 
 # **Accessibility**
 
