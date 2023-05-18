@@ -42,10 +42,10 @@ There is also a pagination system for tables with pages upon pages of data. Appl
 # **Accessibility**
 
 - Make content digestible and scannable:
-    - Keep headers clear and concise
+    - Keep headers clear and concise.
     - Include an a visual indicator for cells that don’t have content.
     - Give enough space for content to account for localization.
-    - Wrap important content to multiple lines
+    - Wrap important content to multiple lines.
     - Truncate secondary information, especially if a user is going to get the full content upon click of a link in the table.
 
 
