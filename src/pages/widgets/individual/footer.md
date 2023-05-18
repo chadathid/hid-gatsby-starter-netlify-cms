@@ -32,4 +32,4 @@ Less frequently used because it depends on the platform and audience.
 
 # **Accessibility**
 
-"Coming soon"
+Footer is used at the bottom of an application. It provides buttons that link to company information and other important links to secondary pages that may not be part of the Header navigation structure.
