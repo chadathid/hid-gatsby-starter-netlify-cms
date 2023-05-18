@@ -23,13 +23,7 @@ The select component’s appearance is decided by the browser that is being used
 
 # **Behavior**
 
-![](/img/select.png)
-
-# **Variant**
-
-![](/img/inline-select.png)
-
-# **Accessibility**
+![](/static/img/select-white-theme.png)
 
 * Select is a type of input that is used in forms, where a user is submitting data and chooses one option from a list.
 *  Select and dropdown are visually similar, however, the appearance of the select component will be determined by browser and device settings.
