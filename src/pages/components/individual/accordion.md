@@ -28,12 +28,9 @@ An accordion is used to show and hide content. Make the entire title label area 
 
 # **Accessibility**
 
-Keyboard Interaction
-
-- Each section header is focusable.﻿
-- **Enter** and **Space**: when focused on a section header, should toggle the visibility of its body
-- Recommended:
-    - **Up** and **Down** arrows: when focused on a section header should navigate to the next/previous header.
-    - This **should not** change the state of the section (if the section is hidden, it stays hidden).
+- An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content.
+- Each header controls it’s associated content. The header also will have a control that can show / hide or expand / collapse the associated section.
+-﻿ Accordions as mentioned can show or hide the content which reduces the need for scrolling the page when multiple sections are on the page. 
+- Accordions can either be multi-expandable or single expandable. 
 
 
