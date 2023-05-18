@@ -22,7 +22,7 @@ featuredimage: /img/hid-notification.svg
 
 **Toast** - For notifications that are temporary and need to provide visual feedback, use Toast Notifications.
 
-![](/img/notification.png)
+![](/static/img/notification.png)
 
 
 
