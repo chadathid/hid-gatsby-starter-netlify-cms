@@ -43,4 +43,7 @@ Tree maps are one of the most compact and space-efficient options for displaying
 
 # **Accessibility**
 
-* A tree view uses a containing element with the tree role. Nodes use the tree item role.
+* A treemap is used to visualize quantitative data as part-to-whole in a hierarchical way and is composed of nested rectangles.
+* The size of each rectangle is proportional to the values they represent.
+* Color can be used to show a relationship between the nested rectangles or additional data such as performance.
+* They are ideal to give a quick overview of hierarchies using a limited amount of space.
