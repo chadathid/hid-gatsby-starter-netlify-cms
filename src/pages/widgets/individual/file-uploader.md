@@ -20,7 +20,7 @@ There are two major components of the file uploader.
 
 **Documents** - These are the files being uploaded. They have several states in which they can be displayed such as Loading, success, uploaded, and error.
 
-![](/img/file-uploader-default-white-theme.png)
+![](/static/img/file-uploader-default-white-theme.png)
 
 # **Accessibility**
 
