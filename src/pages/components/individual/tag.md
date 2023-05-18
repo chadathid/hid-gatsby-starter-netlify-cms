@@ -31,6 +31,5 @@ All tags have the same height. However, the width of tags varies based on the am
 
 * Use a tag to perform an action.
 * The accessibility label for a tag ideally comes from the visible label text on the tag.
-* While multiple tags can be selected, only one can be in focus
-* If a tag can be deleted, it’s recommended to display the X delete icon.
-* Each tag is a focusable element. If a tag has a delete icon and no other action the entire tag and X icon are one focusable element. If a tag has another action, like select, then the tag content and X icon are two separate focusable elements.
+* While multiple tags can be selected, only one can be in focus.
+* If a tag can be deleted, it’s recommended to display the "X" delete icon.
