@@ -23,4 +23,7 @@ featuredimage: /img/divider.png
 
 # **Accessibility**
 
+* Dividers should be used to bring clarity and structure to a layout.
+* Primarily, Dividers help to separate groups of related elements or break up dense content.
+* Use horizontal Dividers from edge to edge.
 * Dividers are decorative elements and have no minimum contrast requirements.
