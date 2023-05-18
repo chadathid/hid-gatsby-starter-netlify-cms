@@ -37,5 +37,5 @@ A header helps users identify where they are and provides a quick, organized way
 * Navigation can be presented as a horizontal tab navigation or as a hamburger menu. Three levels of navigation are supported.
 * Secondary and tertiary navigation items are displayed in menus when hovering on the parent item on large screens.
 * Header navigation items have six possible interaction states — enabled, selected, hover, active, focus and disabled.
-* Search can be included in the header,It can be collapsed or open.
+* Search can be included in the header, It can be collapsed or open.
 * For Search, both the open and collapsed state can be expanded to take up a larger percentage area of the header container when active.
