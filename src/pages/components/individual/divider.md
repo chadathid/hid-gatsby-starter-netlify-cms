@@ -11,7 +11,7 @@ featuredimage: /img/divider.png
 * Canvas dividers are used on the canvas (not cards) to separate large blocks of content.
 * Use dividers when whitespace is not enough of a separator.
 
-![](/img/divider.png)
+![](/static/img/divider.png)
 
 # **Variants**
 
