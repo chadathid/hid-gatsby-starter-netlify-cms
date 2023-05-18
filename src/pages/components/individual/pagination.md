@@ -23,4 +23,8 @@ featuredimage: /img/pagination.png
 
 # **Accessibility**
 
-"Coming soon"
+* Information about the user's location within a set of Web pages is available
+* Navigation patterns follow a consistent pattern. Only position pagination component at the bottom of the page
+* Focus state receives focus in an order that preserves meaning 
+* Focus is visible
+* Target size for pagination links are large enough for users to easily activate them
