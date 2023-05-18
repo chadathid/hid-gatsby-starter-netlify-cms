@@ -23,7 +23,7 @@ The grid system follows 12 columns across the page for the web and 4 columns acr
 
 Following this methodology will keep layouts uniform and prevent unreliable responsive behavior.
 
-![](/img/grid-full-layout.png)
+![](/static/img/grid-full-width.png)
 
 ## **Variants**
 
@@ -33,11 +33,7 @@ A grid can function in three different ways across different Screen sizes.
 * Layout with Expanded Nav
 * Layout with Compact Nav
 
-![](/img/grid-compact-nav.png)
-
-![](/img/grid-expanded-nav.png)
-
-![](/img/grid-mobile-and-tablet.png)
+![](/static/img/grid.png)
 
 # **Header**
 
@@ -123,4 +119,4 @@ Less frequently used because it depends on the platform and audience.
 
 ## **Variants**
 
-![](/img/footer-variant.png)
+![](/static/img/footer-.png)
