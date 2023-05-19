@@ -18,7 +18,7 @@ featuredimage: /img/dropdown-white-background.png
 
 # **Behavior**
 
-![](/static/img/dropdown.png)
+![](/img/dropdo-reorder.png)
 
 # **Accessibility**
 
@@ -29,6 +29,3 @@ featuredimage: /img/dropdown-white-background.png
 * The accessibility label should align with each list item’s text label. 
 * If a tag can be deleted, it’s recommended to display the X delete icon.
 * Each tag is a focusable element. If a tag has a delete icon and no other action the entire tag and X icon are one focusable element. If a tag has another action, like select, then the tag content and X icon are two separate focusable elements.
-
-
-
