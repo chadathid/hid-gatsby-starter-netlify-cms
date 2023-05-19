@@ -9,6 +9,8 @@ featuredimage: /img/hid-avatar.svg
 
 Avatars are always paired with additional information, such as a user's name, for better clarity. It's important to use descriptive alternative text . Doing this is important for accessibility.
 
+![](/static/img/avatar-photo-upload-svg.svg)
+
 The default icon size is 24px. The icon is mostly used to accompany some sort of title text or label. They are generally used in the main navigation and the Global Header Navigation.
 
 **Best Practices**
