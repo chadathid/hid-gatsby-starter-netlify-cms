@@ -9,7 +9,7 @@ description: >-
   on a page. They provide descriptions or explanations for their paired element. 
 featuredimage: /img/tooltip.png
 ---
-![](/static/img/tooltip.png)
+![](/img/tooltip.png)
 
 # **Guidelines**
 
