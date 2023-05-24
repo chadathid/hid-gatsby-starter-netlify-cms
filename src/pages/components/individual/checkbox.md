@@ -24,7 +24,7 @@ Always use clear and concise labels for checkboxes. Be explicit about the result
 
 # **Behavior**
 
-![](/static/img/checkbox.png)
+![](/img/checkbox.png)
 
 # **Accessibility**
 
