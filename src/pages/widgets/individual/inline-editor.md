@@ -20,7 +20,7 @@ The Inline Text editor is used exclusively in features that allow users to edit 
 
 ![](/img/inline-editor-.png)
 
-![](/img/inline-editor-2.png)
+![](/img/inline-editor-2-.png)
 
 # **Accessibility**
 
