@@ -24,7 +24,7 @@ Less frequently used because it depends on the platform and audience.
 * Navigation
 * Mission Vision
 
-![](/static/img/footer-.png)
+![](/img/footer-.png)
 
 # **Accessibility**
 
