@@ -31,7 +31,7 @@ Avoid using area charts when there are more than 3 - 4 categories. In that case,
 
 Do not use the area chart if there are negative values.
 
-![](/static/img/area-chart-.png)
+![](/img/area-chart-.png)
 
 **Utility**
 
