@@ -33,6 +33,8 @@ Do not use Content switcher to navigate between related sections of content, use
 
 # **Behavior**
 
+
+
 **Enabled** - This is how the enabled state of the content switcher usually appears and the first content tab should always be the default selection.
 
 **Selected** - The selected state uses a high-contrast color when a user clicks a particular content tab.
