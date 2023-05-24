@@ -8,7 +8,7 @@ featuredimage: /img/inline-status-icons.png
 # **Guidelines**
 
 Inline Status indicates a state or condition at a particular time and falls into five categories: info, success, warning, error and none.
- 
+
 **For example**: status can indicate that a request is Active, Pending, or Successful.
 
 * Use Inline Status when users must address or be aware of important information while completing tasks.
@@ -29,7 +29,6 @@ Inline Status is only used to provide advisory information to the user, do not u
 
 **These are some typical situations in which each color could be used:**
 
-
 **Red** - Error status is used to alert a failed process or emergency alerts
 
 **Orange** - Warning status is used to notify the user of an expiring license or process
@@ -41,7 +40,7 @@ Inline Status is only used to provide advisory information to the user, do not u
 **Grey** - None status is used to notify users regarding a basic, general status where no further action is required.
 The lowest level of severity is grey (neutral) and the highest level of severity, is red (Alert).
 
-![](/static/img/inline-status.png)
+![](/img/inline-status.png)
 
 # **Accessibility**
 
