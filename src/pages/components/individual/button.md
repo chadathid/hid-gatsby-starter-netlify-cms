@@ -34,9 +34,9 @@ Never use buttons as navigational elements. Instead, use links when the desired 
 
 # **Behavior**
 
-![](/static/img/button.png)
+![](/img/button.png)
 
-# **Variant**                      
+# **Variant**
 
 **Primary** - Principal call-to-action within a page.
 
