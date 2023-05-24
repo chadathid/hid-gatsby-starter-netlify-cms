@@ -12,7 +12,7 @@ featuredimage: /img/tables-shown-with-page-layouts-for-context-.png
 
 Tables are used to organize data that is too detailed or complicated to be described adequately in the text, allowing the reader to quickly see the results. They can be used to highlight trends or patterns in the data and to make a manuscript more readable by removing numeric data from the text.
 
-![](/static/img/data-table.png)
+![](/img/data-table.png)
 
 **Tables with Selections**
 
@@ -32,7 +32,6 @@ If the user wants to clear the search, they will have to click on the “circle 
 
 Tables can have rows that collapse or expand data. The functionality behaves similarly to an accordion, where the displaying row has a title (feature/attribute) with data pertaining to that attribute nested within.
 
-
 **Tables with Display Options & Pagination**
 
 Tables can have either a simple display option or a more robust pagination system that gives the user control of how much content they want to view.
@@ -41,12 +40,11 @@ There is also a pagination system for tables with pages upon pages of data. Appl
 
 # **Accessibility**
 
-- Make content digestible and scannable:
-    - Keep headers clear and concise.
-    - Include an a visual indicator for cells that don’t have content.
-    - Give enough space for content to account for localization.
-    - Wrap important content to multiple lines.
-    - Truncate secondary information, especially if a user is going to get the full content upon click of a link in the table.
+* Make content digestible and scannable:
 
-
-- Expand rows if the additional content is simple, doesn’t contain a lot of interaction and doesn’t take up more than 50% of the screen.
+  * Keep headers clear and concise.
+  * Include an a visual indicator for cells that don’t have content.
+  * Give enough space for content to account for localization.
+  * Wrap important content to multiple lines.
+  * Truncate secondary information, especially if a user is going to get the full content upon click of a link in the table.
+* Expand rows if the additional content is simple, doesn’t contain a lot of interaction and doesn’t take up more than 50% of the screen.
