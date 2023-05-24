@@ -36,7 +36,7 @@ clicked
 
 **disabled** - The disabled state is when a link is unclickable and unusable.
 
-![](/static/img/link-white-theme.png)
+![](/img/link-white-theme.png)
 
 # **Accessibility**
 
