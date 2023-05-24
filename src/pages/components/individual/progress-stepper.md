@@ -30,7 +30,7 @@ As the user progresses, the previous step is checked off.
 
 When the user has completed the whole process of the task, the stepper will end with a green indicator for success.
 
-![](/static/img/progress-stepper.png)
+![](/img/progress-stepper.png)
 
 # **Accessibility**
 
