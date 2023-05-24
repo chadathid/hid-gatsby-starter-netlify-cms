@@ -19,7 +19,6 @@ The grid system follows 12 columns across the page for the web and 4 columns acr
 
 **Gutters** - are the spaces between the columns. Gutters help to separate the content. The Gutter width for the Web is 24px, 18px for Mobile and 40px for Tablet.
 
-
 **Margins** - Margins are the space between content and the edges of the screen. The Margin width for the Web is 24px, 24px for Mobile and 69px for Tablet. The margins change as per different screen sizes.
 
 Following this methodology will keep layouts uniform and prevent unreliable responsive behavior.
@@ -32,7 +31,7 @@ A grid can function in three different ways across different Screen sizes.
 * Layout with Expanded Nav
 * Layout with Compact Nav
 
-![](/static/img/grid.png)
+![](/img/grid.png)
 
 # **A﻿ccessibility**
 
