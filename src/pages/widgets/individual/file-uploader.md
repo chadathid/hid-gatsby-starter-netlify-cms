@@ -20,11 +20,11 @@ There are two major components of the file uploader.
 
 **Documents** - These are the files being uploaded. They have several states in which they can be displayed such as Loading, success, uploaded, and error.
 
-![](/static/img/file-uploader-default-white-theme.png)
+![](/img/file-uploader-default-white-theme.png)
 
 # **Accessibility**
 
-  * ﻿File Upload Input allows a user to upload files via Input field.
- * File Upload can be set to be clearable with the close icon.
+* ﻿File Upload Input allows a user to upload files via Input field.
+* File Upload can be set to be clearable with the close icon.
 * In the file uploader the Progress component creating a full file upload form displays an area where the uploaded file name is visible.
- * File Upload inherits the status properties of Input — none, success, warning, error, loading.
+* File Upload inherits the status properties of Input — none, success, warning, error, loading.
