@@ -23,7 +23,7 @@ Breadcrumbs are always treated as secondary and should never entirely replace th
 
 # **Behavior**
 
-![](/static/img/breadcrumbs.png)
+![](/img/breadcrumbs.png)
 
 # **Accessibility**
 
