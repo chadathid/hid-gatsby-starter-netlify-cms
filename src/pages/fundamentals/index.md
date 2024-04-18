@@ -6,6 +6,33 @@ path: /fundamentals
 \
 Foundations are the visual elements needed to create engaging end-to-end user experiences. This includes guidance on Colors, Typography and Iconography.
 
+# **Accessibility**
+
+UI (User Interface) components are designed to accommodate common user visual impairments. We also created text content standards for users with cognition disabilities. We strive to meet or exceed W3C and WCAG accessibility standards and best practices as referenced in the ADA (Americans with Disabilities Act).
+
+#### **Use of color and contrast for users with visual impairments**
+
+Visual impairments can include low vision and color blindness. Although the Design System UI components have been created with accessibility as a key priority, designers and developers still need to exercise diligence to ensure that the components are used correctly.
+
+These ratios from WCAG serve as our goal for color contrast:
+
+* Standard text and images of text must have a contrast ratio of at least 5:1.
+* Large text (at least 22px regular and light / 18px semi-bold) must have a contrast ratio of 4:1.
+* We don’t apply text over image backgrounds.
+* All components must have a contrast ratio of 3.5:1 against nearby colors.
+
+#### **Use of color and color blindness**
+
+We don’t rely on color alone to communicate information or priority to the user. For instance, an alert notification might be orange or red, but we also use different words and/or visual symbols to inform the user. When designing with color, we assure that meaning and context for that element are clearly discernible independent of the use of color.
+
+#### **Content guidelines for users with cognitive disabilities**
+
+Functional cognitive divergence can result in difficulties with: memory, problem solving, attention deficit, reading comprehension, and language.
+
+Content within HID digital products should avoid complex or overly technical language, nebulous button labels, or content that is specific to a particular age, cultural, or ethnic community. We avoid dialectical language or regional expressions while maintaining conversational tone.
+
+Designs and text content should pass usability heuristics such as UX usability testing to ensure users do not feel overloaded when completing tasks. Our digital experiences should be designed in as linear a fashion as possible and focus on design heuristics that have to do with cognitive load and memory.
+
 # **C﻿olors**
 
 The HID Design System uses a set of colors from the color system to achieve consistency and convey hierarchy in often UI applications. The color system serves as a foundation to achieve balance and harmony throughout our applications.
